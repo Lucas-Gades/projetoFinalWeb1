@@ -3,7 +3,166 @@
 
 *{
     font-family: 'Averia Serif Libre', cursive;
+    font-style: bold;
 }
+body{
+    background-image: url(../img/fundo-index.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+   
+}
+
+
 .imagem:hover{
     transform: scale(1.2);
 }
+
+nav{
+
+    background-color: rgb(51, 47, 47)!important;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+
+
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+#navbarSupportedContent{
+   
+}
+
+
+
+.nav-link{
+    color: white!important;
+    border: none;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+ 
+
+    
+}
+
+
+.nav-item a {
+   margin-left: 5rem;
+}
+
+.nav-link:hover{
+    background-color: #eeff00;
+    color: black!important;
+    border-radius: 0;
+    padding: 0.8rem!important;
+
+    
+  
+}
+
+
+
+#lupa{
+    
+    
+    border-color: #ffffff;
+}
+
+#lupa:hover{
+
+    background-color:#eeff00;
+    border-color: #ffffff;
+}
+
+
+
+#tabela{
+    background-color: #eeff00!important;
+}
+
+table{
+    border:2px solid rgb(17, 163, 29)!important;
+}
+
+ table th , table th tr {
+
+    border:2px solid black!important;
+}
+
+table  td{
+    border:3px solid black!important;
+}
+
+tr:nth-child(even) {background: rgba(255, 255, 255, 0.795)}
+tr:nth-child(odd) {background: rgba(182, 181, 181, 0.767)}
+
+
+
+#vivo{
+    margin-top: 5rem;
+    background-color: violet;
+    height: 700px;
+    width: 100%;
+    border: 5px solid rebeccapurple;
+}
+
+#premiere{
+        background-color: white;
+        margin-top: 5rem;
+        height: 700px;
+        width: 100%;
+        border: 5px solid rgb(21, 153, 49);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:985px){
+  
+    
+
+    #navbarSupportedContent{
+        margin-left: 0!important;
+    }
+    .nav-item a {
+        margin-left: 0;
+     }
+
+     #premiere figure img{
+
+        height: 150px;
+     }
+
+     
+}
+
+@media screen and (max-width:765px){
+
+
+    .propaganda img{
+        width: 50%!important;
+        margin-left: 10rem!important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,31 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
     <body>
-        <main>
-          <nav class="nav nav-pills bg-danger p-3">
-            <a class="nav-link" href="#">Teste manooooooo</a>
-            <a class="nav-link" href="#">Teste dnv mano ta manooooo</a>
-            <a class="nav-link" href="#">Linkkkk</a>
-            <a class="nav-link" href="#">Disabled</a>
+      <header>
+      
+      </header>
+        <main class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-dark " >
+            <a class="navbar-brand" href="#"> <img src="img/logoBrasileirao.png" class="img-thumbnail" width="45" height="30" alt=""></button></a>
+            <button  class="navbar-toggler  bg-info "  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link " href="index.html">Inicio </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Classificação</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Times</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Jogadores</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contatos</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquise Aqui.." aria-label="Search">
+                <button id="lupa" class="btn  my-2 my-sm-0" type="submit" > 
+                  <img src="img/lupa.png" class="img-responsive "height="15" alt="">
+                </button>
+              </form>
+            </div>
           </nav>
           <section class="container-fluid py-4">
             <div class="row">
-              <aside class="col-lg-2 col-md-3 col-sm-12 p-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, totam sed incidunt dicta, eos qui ipsa repellendus vel neque tempora in harum ex minima? Tempora a repellendus recusandae. Repellat, soluta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore quod itaque minus dolore molestias consectetur similique ullam ex corporis vero hic, modi omnis sint, vel odio. Laudantium, doloremque fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate maiores architecto quis aperiam aut quaerat, eius, officiis alias est sit adipisci quos aliquid consequuntur veniam voluptates iusto ipsam soluta a! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae quaerat incidunt natus voluptas a fugiat consequuntur in numquam hic. Earum officiis temporibus eum ut dolorum molestiae magnam? Sint, labore!</p>
+              <article id="vivo" class="col-lg-2 col-md-3 col-sm-12 p-4 fixed "  >          
+               <figure  class="figure mt-5 propaganda w-100 ">
+                 <img src="img/vivo.png" class="img-responsive mt-5 w-100" height="75" alt=""><br>
+                 <img src="img/boneco.png" class="img-responsive mt-5 w-100" height="250" alt=""><br>
+                 <img src="img/logo-45g-fibra-vivo.png"class="img-responsive mt-5 w-100"  height="50" alt="">
+               
+               </article>
               </aside>
-              <aside class="col-lg-8 col-md-6 col-sm-12" style="margin-top: 1rem;">
-                <table class="table table-striped table-bordered table-responsive">
-                  <thead class="bg-warning">
-                    <tr>
+              <aside class="col-lg-8 col-md-6 col-sm-12 " >
+                <table class="table  table-bordered table-responsive mt-5 " >
+                  <thead >
+                    <tr id="tabela">
                       <th scope="col">
                         <div class="row align-items-end m-0">
                           <img src="img/logoBrasileirao.png" alt="" class="img-fluid col-lg-2 w-50" style="margin: 0; padding: 0;"> 
@@ -49,7 +82,7 @@
                     <tr>
                       <th class="row align-items-center m-0 p-0">
                         <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">1</p>
-                        <img src="img/saoPaulo.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <img src="img/sao-paulo.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
                         <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">São Paulo</p>
                       </th>
                       <td class="align-bottom">78</td>
@@ -64,7 +97,7 @@
                     <tr>
                       <th class="row align-items-center m-0 p-0">
                         <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">2</p>
-                        <img src="img/simbolo.svg" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <img src="img/internacional.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
                         <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Internacional</p>
                       </th>
                       <td class="align-bottom">69</td>
@@ -91,49 +124,331 @@
                       <td class="align-bottom">45</td>
                       <td class="align-bottom">45</td>
                     </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">4</p>
+                        <img src="img/santos.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Santos</p>
+                      </th>
+                      <td class="align-bottom">64</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">18</td>
+                      <td class="align-bottom">10</td>
+                      <td class="align-bottom">10</td>
+                      <td class="align-bottom">58</td>
+                      <td class="align-bottom">36</td>
+                      <td class="align-bottom">22</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">5</p>
+                        <img src="img/parana.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Paraná</p>
+                      </th>
+                      <td class="align-bottom">60</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">18</td>
+                      <td class="align-bottom">6</td>
+                      <td class="align-bottom">14</td>
+                      <td class="align-bottom">56</td>
+                      <td class="align-bottom">49</td>
+                      <td class="align-bottom">7</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">6</p>
+                        <img src="img/vasco.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Vasco</p>
+                      </th>
+                      <td class="align-bottom">59</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">15</td>
+                      <td class="align-bottom">14</td>
+                      <td class="align-bottom">9</td>
+                      <td class="align-bottom">57</td>
+                      <td class="align-bottom">50</td>
+                      <td class="align-bottom">7</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">7</p>
+                        <img src="img/figueirense.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Figueirense</p>
+                      </th>
+                      <td class="align-bottom">57</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">15</td>
+                      <td class="align-bottom">12</td>
+                      <td class="align-bottom">11</td>
+                      <td class="align-bottom">52</td>
+                      <td class="align-bottom">44</td>
+                      <td class="align-bottom">8</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">8</p>
+                        <img src="img/goias.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Goiás</p>
+                      </th>
+                      <td class="align-bottom">55</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">15</td>
+                      <td class="align-bottom">10</td>
+                      <td class="align-bottom">13</td>
+                      <td class="align-bottom">63</td>
+                      <td class="align-bottom">49</td>
+                      <td class="align-bottom">14</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">9</p>
+                        <img src="img/corinthians.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Corinthians</p>
+                      </th>
+                      <td class="align-bottom">53</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">15</td>
+                      <td class="align-bottom">8</td>
+                      <td class="align-bottom">15</td>
+                      <td class="align-bottom">41</td>
+                      <td class="align-bottom">46</td>
+                      <td class="align-bottom">-5</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">10</p>
+                        <img src="img/cruzeiro.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Cruzeiro</p>
+                      </th>
+                      <td class="align-bottom">53</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">14</td>
+                      <td class="align-bottom">11</td>
+                      <td class="align-bottom">13</td>
+                      <td class="align-bottom">52</td>
+                      <td class="align-bottom">45</td>
+                      <td class="align-bottom">7</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">11</p>
+                        <img src="img/flamengo.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Flamengo</p>
+                      </th>
+                      <td class="align-bottom">52</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">15</td>
+                      <td class="align-bottom">7</td>
+                      <td class="align-bottom">16</td>
+                      <td class="align-bottom">44</td>
+                      <td class="align-bottom">48</td>
+                      <td class="align-bottom">-4</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">12</p>
+                        <img src="img/botafogo.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Botafogo</p>
+                      </th>
+                      <td class="align-bottom">51</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">13</td>
+                      <td class="align-bottom">12</td>
+                      <td class="align-bottom">13</td>
+                      <td class="align-bottom">52</td>
+                      <td class="align-bottom">50</td>
+                      <td class="align-bottom">2</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">13</p>
+                        <img src="img/atlhetico-pr.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Atlêtico-PR</p>
+                      </th>
+                      <td class="align-bottom">48</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">13</td>
+                      <td class="align-bottom">9</td>
+                      <td class="align-bottom">16</td>
+                      <td class="align-bottom">61</td>
+                      <td class="align-bottom">62</td>
+                      <td class="align-bottom">-1</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">14</p>
+                        <img src="img/juventude.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Juventude</p>
+                      </th>
+                      <td class="align-bottom">47</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">13</td>
+                      <td class="align-bottom">8</td>
+                      <td class="align-bottom">17</td>
+                      <td class="align-bottom">44</td>
+                      <td class="align-bottom">54</td>
+                      <td class="align-bottom">-10</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">15</p>
+                        <img src="img/fluminense.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Fluminense</p>
+                      </th>
+                      <td class="align-bottom">45</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">11</td>
+                      <td class="align-bottom">12</td>
+                      <td class="align-bottom">15</td>
+                      <td class="align-bottom">48</td>
+                      <td class="align-bottom">58</td>
+                      <td class="align-bottom">-10</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">16</p>
+                        <img src="img/palmeiras.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Palmeiras</p>
+                      </th>
+                      <td class="align-bottom">44</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">12</td>
+                      <td class="align-bottom">8</td>
+                      <td class="align-bottom">18</td>
+                      <td class="align-bottom">58</td>
+                      <td class="align-bottom">70</td>
+                      <td class="align-bottom">-12</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">17</p>
+                        <img src="img/ponte-preta.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Ponte Preta</p>
+                      </th>
+                      <td class="align-bottom">39</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">10</td>
+                      <td class="align-bottom">9</td>
+                      <td class="align-bottom">19</td>
+                      <td class="align-bottom">45</td>
+                      <td class="align-bottom">65</td>
+                      <td class="align-bottom">-20</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">18</p>
+                        <img src="img/fortaleza.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Fortaleza</p>
+                      </th>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">8</td>
+                      <td class="align-bottom">14</td>
+                      <td class="align-bottom">16</td>
+                      <td class="align-bottom">39</td>
+                      <td class="align-bottom">62</td>
+                      <td class="align-bottom">-23</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">19</p>
+                        <img src="img/sao-caetano.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">São Caetano</p>
+                      </th>
+                      <td class="align-bottom">36</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">9</td>
+                      <td class="align-bottom">9</td>
+                      <td class="align-bottom">20</td>
+                      <td class="align-bottom">37</td>
+                      <td class="align-bottom">53</td>
+                      <td class="align-bottom">-16</td>
+                    </tr>
+                    <tr>
+                      <th class="row align-items-center m-0 p-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">20</p>
+                        <img src="img/santa-cruz.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
+                        <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Santa Cruz</p>
+                      </th>
+                      <td class="align-bottom ">28</td>
+                      <td class="align-bottom">38</td>
+                      <td class="align-bottom">7</td>
+                      <td class="align-bottom">7</td>
+                      <td class="align-bottom">24</td>
+                      <td class="align-bottom">41</td>
+                      <td class="align-bottom">76</td>
+                      <td class="align-bottom">-35</td>
+                    </tr>
                   </tbody>
                 </table>
               </aside>
-              <aside class="col-lg-2 col-md-3 col-sm-12 p-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, totam sed incidunt dicta, eos qui ipsa repellendus vel neque tempora in harum ex minima? Tempora a repellendus recusandae. Repellat, soluta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore quod itaque minus dolore molestias consectetur similique ullam ex corporis vero hic, modi omnis sint, vel odio. Laudantium, doloremque fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate maiores architecto quis aperiam aut quaerat, eius, officiis alias est sit adipisci quos aliquid consequuntur veniam voluptates iusto ipsam soluta a! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia molestiae quaerat incidunt natus voluptas a fugiat consequuntur in numquam hic. Earum officiis temporibus eum ut dolorum molestiae magnam? Sint, labore!</p>
-              </aside>
+              <article id="premiere" class="col-lg-2 col-md-3 col-sm-12 p-4">
+                  <figure  class="figure mt-5  w-100 text-center " style="padding-top: 12rem;">
+                    <img src="img/logo-premiere.png" id="logopremiere" class="img-responsive  w-100  " height="50" alt=""><br>
+                    <p>A partir de R$ 59,90/mês</p>
+                  </figure>
+              </article>
             </div>
-            <div class="row m-auto w-50">
+            <div class="row m-auto w-50 border " style="background-color: rgba(128, 128, 128, 0.767);">
               <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-                <a href=""><img src="img/simbolo.svg" alt="" class="w-100"></a>
+                <a href=""><img src="img/sao-paulo.png" alt="" class="w-100"></a>
+              </aside>
+              <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
+                <a href=""><img src="img/internacional.png" alt="" class="w-100"></a>
               </aside>
               <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
                 <a href=""><img src="img/gremio.png" alt="" class="w-100"></a>
               </aside>
               <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-                <a href=""><img src="img/simbolo.svg" alt="" class="w-100"></a>
+                <a href=""><img src="img/santos.png" alt="" class="w-100"></a>
               </aside>
               <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-                <a href=""><img src="img/gremio.png" alt="" class="w-100"></a>
+                <a href=""><img src="img/parana.png" alt="" class="w-100"></a>
               </aside>
               <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-                <a href=""><img src="img/simbolo.svg" alt="" class="w-100"></a>
+                <a href=""><img src="img/vasco.png" alt="" class="w-100"></a>
               </aside>
               <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-                <a href=""><img src="img/gremio.png" alt="" class="w-100"></a>
+                <a href=""><img src="img/figueirense.png" alt="" class="w-100"></a>
               </aside>
               <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-                <a href=""><img src="img/simbolo.svg" alt="" class="w-100"></a>
+                <a href=""><img src="img/goias.png" alt="" class="w-100"></a>
               </aside>
               <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-                <a href=""><img src="img/gremio.png" alt="" class="w-100"></a>
+                <a href=""><img src="img/corinthians.png" alt="" class="w-100"></a>
               </aside>
               <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-                <a href=""><img src="img/simbolo.svg" alt="" class="w-100"></a>
+                <a href=""><img src="img/cruzeiro.png" alt="" class="w-100"></a>
               </aside>
               <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-                <a href=""><img src="img/gremio.png" alt="" class="w-100"></a>
+                <a href=""><img src="img/flamengo.png" alt="" class="w-100"></a>
               </aside>
               <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-                <a href=""><img src="img/simbolo.svg" alt="" class="w-100"></a>
+                <a href=""><img src="img/botafogo.png" alt="" class="w-100"></a>
               </aside>
               <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-                <a href=""><img src="img/gremio.png" alt="" class="w-100"></a>
+                <a href=""><img src="img/atlhetico-pr.png" alt="" class="w-100"></a>
+              </aside>
+              <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
+                <a href=""><img src="img/juventude.png" alt="" class="w-100"></a>
+              </aside>
+              <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
+                <a href=""><img src="img/fluminense.png" alt="" class="w-100"></a>
+              </aside>
+              <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
+                <a href=""><img src="img/palmeiras.png" alt="" class="w-100"></a>
+              </aside>
+              <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
+                <a href=""><img src="img/ponte-preta.png" alt="" class="w-100"></a>
+              </aside>
+              <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
+                <a href=""><img src="img/fortaleza.png" alt="" class="w-100"></a>
+              </aside>
+              <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
+                <a href=""><img src="img/sao-caetano.png" alt="" class="w-100"></a>
+              </aside>
+              <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
+                <a href=""><img src="img/santa-cruz.png" alt="" class="w-100"></a>
               </aside>
             </div>
           </section>
