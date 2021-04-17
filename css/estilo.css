@@ -6,9 +6,10 @@
     font-style: bold;
 }
 body{
-    background-image: url(../img/fundo-index.jpg);
+    /*background-image: url(../img/fundo-index.jpg);*/
+    background-image: linear-gradient(rgb(51, 47, 47),gray,rgb(21, 153, 49));
     background-size: 100%;
-    background-attachment: fixed;
+    
     background-repeat: no-repeat;
     background-color: black;
    
@@ -116,7 +117,12 @@ tr:nth-child(odd) {background: rgba(182, 181, 181, 0.767)}
         border: 5px solid rgb(21, 153, 49);
 }
 
-
+#rodape{
+    background-color: rgb(21, 153, 49);
+    border-top: solid black;
+    border-left: solid black;
+    border-right: solid black;
+}
 
 
 
