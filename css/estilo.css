@@ -22,8 +22,7 @@ body{
 
 nav{
 
-    background-color: rgb(51, 47, 47)!important;
-   
+    background-color: rgb(0, 0, 0)!important;
 
 
 }
@@ -31,9 +30,7 @@ nav{
 .navbar-toggler{
     background-color: white;
 }
-#navbarSupportedContent{
-   
-}
+
 
 
 
@@ -98,6 +95,9 @@ table  td{
 tr:nth-child(even) {background: rgba(255, 255, 255, 0.795)}
 tr:nth-child(odd) {background: rgba(182, 181, 181, 0.767)}
 
+tr:hover{
+    background-color: rgb(101, 130, 131);
+}
 
 
 #vivo{
@@ -117,12 +117,26 @@ tr:nth-child(odd) {background: rgba(182, 181, 181, 0.767)}
 }
 
 #rodape{
-    background-color: rgb(21, 153, 49);
+    background-color: rgb(182, 178, 178);
     border-top: solid black;
     border-left: solid black;
     border-right: solid black;
 }
 
+.desenvolvedor a {
+    text-decoration: none;
+    font-style:italic;
+    
+    color: rgb(86, 82, 88);
+    
+
+
+}
+
+.desenvolvedor a:hover{
+
+margin: 15px;
+}
 
 
 
@@ -156,7 +170,12 @@ tr:nth-child(odd) {background: rgba(182, 181, 181, 0.767)}
         width: 50%!important;
         margin-left: 10rem!important;
     }
+    #redesocias{
+        text-align: left!important;
+    }
 }
+
+
 
 
 
