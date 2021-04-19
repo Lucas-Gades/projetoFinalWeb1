@@ -6,13 +6,11 @@
     font-style: bold;
 }
 body{
-    /*background-image: url(../img/fundo-index.jpg);*/
-    background-image: linear-gradient(rgb(187, 177, 177),gray,rgb(21, 153, 49));
+    background-image: url(../img/fundo-index.jpg);
+    background-color: rgb(51, 102, 18);
     background-size: 100%;
-    
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: black;
-   
 }
 
 
@@ -194,6 +192,9 @@ margin: 15px;
 
 @media screen and (max-width:765px){
 
+    body{
+        background-size: 2200px;
+    }
 
     .propaganda img{
         width: 50%!important;
