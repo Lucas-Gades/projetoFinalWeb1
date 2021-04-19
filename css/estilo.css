@@ -7,7 +7,7 @@
 }
 body{
     /*background-image: url(../img/fundo-index.jpg);*/
-    background-image: linear-gradient(rgb(51, 47, 47),gray,rgb(21, 153, 49));
+    background-image: linear-gradient(rgb(187, 177, 177),gray,rgb(21, 153, 49));
     background-size: 100%;
     
     background-repeat: no-repeat;
@@ -73,40 +73,86 @@ nav{
     border-color: #ffffff;
 }
 
-
+#logoDoBrasileraoTabela{
+    float: left;
+}
 
 #tabela{
     background-color: #eeff00!important;
 }
 
 table{
-    border:2px solid rgb(17, 163, 29)!important;
+    border:2px solid rgb(0, 0, 0)!important;
 }
 
- table th , table th tr {
-
-    border:2px solid black!important;
+table th , table th tr {
+    border:0.8px solid black!important;
 }
 
-table  td{
-    border:3px solid black!important;
+table td{
+    border:1.29px solid black!important;
 }
+
+
 
 tr:nth-child(even) {background: rgba(255, 255, 255, 0.795)}
 tr:nth-child(odd) {background: rgba(182, 181, 181, 0.767)}
 
 tr:hover{
-    background-color: rgb(101, 130, 131);
+    background-color: rgb(68, 81, 190)!important;
 }
+
+td:hover{
+    background-color: rgba(29, 27, 156, 0.479);
+}
+
+
+#verde{
+    width: 1px!important;
+    height: 5px;
+    border: 15px solid ;
+    border-color: rgba(0, 221, 11, 0.671);
+}
+
+#amarelo{
+    width: 1px!important;
+    height: 5px;
+    border: 15px solid ;
+    border-color: rgba(221, 218, 22, 0.692) ;
+}
+#laranja{
+    width: 1px!important;
+    height: 5px;
+    border: 15px solid ;
+    border-color: rgba(219, 127, 6, 0.712) ;;
+}
+
+#cinza{
+    width: 1px!important;
+    height: 5px;
+    border: 15px solid ;
+    border-color: rgba(143, 142, 142, 0.74) ; ;
+}
+
+#vermelho{
+    width: 1px!important;
+    height: 5px;
+    border: 15px solid ;
+    border-color: rgba(220, 20, 60, 0.527); ;
+}
+
 
 
 #vivo{
     margin-top: 5rem;
     background-color: violet;
     height: 700px;
-    width: 100%;
     border: 5px solid rebeccapurple;
+
+
 }
+
+
 
 #premiere{
         background-color: white;
@@ -144,24 +190,7 @@ margin: 15px;
 
 
 
-@media screen and (max-width:985px){
-  
-    
 
-    #navbarSupportedContent{
-        margin-left: 0!important;
-    }
-    .nav-item a {
-        margin-left: 0;
-     }
-
-     #premiere figure img{
-
-        height: 150px;
-     }
-
-     
-}
 
 @media screen and (max-width:765px){
 
@@ -173,7 +202,42 @@ margin: 15px;
     #redesocias{
         text-align: left!important;
     }
+    #vivo img{
+        height: 25%!important;
+    }
+    #vivo{
+     padding-left: 15rem!important;
+     padding-right: 15rem!important;
+     padding-bottom: 12rem!important;
+    }
+
 }
+
+@media screen and (max-width:480px){
+
+  th img{
+        width: 50%!important; 
+        margin: 0 auto!important;
+    
+    }
+
+    #vivo img{
+        height: 25%!important;
+    }
+    #vivo{
+     padding: 5rem!important;
+    }
+
+    #logoDoBrasileraoTabela img ,#logoDoBrasileraoTabela img h2{
+        height: 30%!important;
+        width: 70%!important;
+    
+    }
+
+
+}
+
+
 
 
 

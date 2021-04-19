@@ -2,9 +2,16 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <title>Campeonato Brasileiro de 2006</title>
+  <meta name="description"
+    content="Relembre aqui a escalação do seu time do coração do ano de 2006 do campeonato brasileiro da série A">
+  <meta name="keywords" content="Futebol,Brasileirão,Times,Série A,Jogadores">
+  <meta name="author"
+    content="Lucas Gades::lucasgades@hotmail.com; Felipe Zamora::zamorafelipe00@gmail.com; Ryan Eugênio::ryaneugenio1211@gmail.com; Juliano Godinho::julianogodinho99@gmail.com;">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="img/logo-brasileirao-16x16.png">
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -15,17 +22,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
   </script>
-  <title>Document</title>
 </head>
 
 <body>
-  <header>
-
-  </header>
   <main class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <a class="navbar-brand" href="#"> <img src="img/logoBrasileirao.png" class="img-thumbnail" width="45" height="30"
-          alt=""></button></a>
+          alt="Logo do Brasileirão"></a>
       <button class="navbar-toggler  bg-info " type="button" data-toggle="collapse"
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -50,31 +53,47 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Pesquise Aqui.." aria-label="Search">
-          <button id="lupa" class="btn  my-2 my-sm-0" type="submit">
-            <img src="img/lupa.png" class="img-responsive " height="15" alt="">
+          <input class="form-control mr-sm-2 col-9 " style="margin-right: 1%;" type="search"
+            placeholder="Pesquise Aqui.." aria-label="Search">
+          <button id="lupa" class="btn  my-2 my-sm-0 col-2" type="submit">
+            <img src="img/lupa.png" style="height: 15px; " sclass="img-fluid text-right "
+              alt="Icone da Lupa de Pesquisa">
           </button>
         </form>
       </div>
     </nav>
     <section class="container-fluid py-4">
+      <h2 style="display: none;">.</h2>
       <div class="row">
-        <article id="vivo" class="col-lg-2 col-md-3 col-sm-12 p-4 fixed">
-          <img src="img/vivo.png" class="img-responsive mt-5 w-100" height="75" alt=""><br>
-          <img src="img/boneco.png" class="img-responsive mt-5 w-100" height="250" alt=""><br>
-          <img src="img/logo-45g-fibra-vivo.png" class="img-responsive mt-5 w-100" height="50" alt="">
+        <article class="col-md-2 col-sm-12 p-3 ">
+          <div class="p-2" style="background-color: rgba(255, 255, 255, 0.479);">
+            <div id="verde" class="mt-1"></div>
+            <p style="font-size: 0.7rem; ">Classificado à segunda fase da Libertadores 2007</p>
+            <div id="amarelo" class="mt-1"></div>
+            <p style="font-size: 0.7rem;">Classificado à primeira fase da Libertadores 2007</p>
+            <div id="laranja" class="mt-1"></div>
+            <p style="font-size: 0.7rem;">Classificado à Sul-Americana 2007</p>
+            <div id="cinza" class="mt-1"></div>
+            <p style="font-size: 0.7rem;">Rebaixamento à Série B 2007</p>
+            <div id="vermelho" class="mt-1"></div>
+            <p style="font-size: 0.7rem;">Rebaixamento à Série B 2007</p>
+          </div>
+          <div id="vivo" class="">
+            <h2 style="display: none;">.</h2>
+            <img src="img/vivo.png" class="img-fluid  mt-5 w-100 " height="15" alt="Logo da empresa da Vivo"><br>
+            <img src="img/boneco.png" class="img-fluid  mt-5 w-100" height="50"
+              alt="Logo do mascote da empresa da Vivo"><br>
+            <img src="img/logo-45g-fibra-vivo.png" class="img-fluid mt-5 w-100" height="20" alt="4.5g Fibra">
+          </div>
         </article>
-        </aside>
-        <aside class="col-lg-8 col-md-6 col-sm-12 ">
-          <table class="table  table-bordered table-responsive mt-5 ">
+        <aside class="col-md-8 col-sm-12 ">
+          <table class="table table-bordered table-responsive-lg table-responsive-md table-responsive-sm p-0 ">
             <thead>
               <tr id="tabela">
                 <th scope="col">
-                  <div class="row align-items-end m-0">
-                    <img src="img/logoBrasileirao.png" alt="" class="img-fluid col-lg-2 w-50"
-                      style="margin: 0; padding: 0;">
-                    <h2 class="col-lg-10 pt-4 px-0 text-center">CLASSIFICAÇÃO</h2>
-                  </div>
+                  <div id="logoDoBrasileraoTabela" class="text-center align-items-end p-0">
+                    <img src="img/logoBrasileirao.png" alt="Logo do Brasileirão" class="img-fluid col-lg-2 w-50 ">
+                    CLASSIFICAÇÃO
                 </th>
                 <th scope="col">PG</th>
                 <th scope="col">J</th>
@@ -86,377 +105,386 @@
                 <th scope="col">SG</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
+            <tbody scope="row">
+              <tr style="background-color:rgba(0, 221, 11, 0.671) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">1</p>
-                  <img src="img/sao-paulo.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">São Paulo</p>
+                  <img src="img/sao-paulo.png" alt="Logo do Time do Grêmio" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">São Paulo</p> <br><br>
                 </th>
-                <td class="align-bottom">78</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">22</td>
-                <td class="align-bottom">12</td>
-                <td class="align-bottom">4</td>
-                <td class="align-bottom">66</td>
-                <td class="align-bottom">32</td>
-                <td class="align-bottom">34</td>
+                <td class="align-middle">78</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">22</td>
+                <td class="align-middle">12</td>
+                <td class="align-middle">4</td>
+                <td class="align-middle">66</td>
+                <td class="align-middle">32</td>
+                <td class="align-middle">34</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(0, 221, 11, 0.671) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">2</p>
-                  <img src="img/internacional.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Internacional</p>
+                  <img src="img/internacional.png" alt="Logo do Time do Grêmio" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Internacional</p><br><br>
                 </th>
-                <td class="align-bottom">69</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">20</td>
-                <td class="align-bottom">9</td>
-                <td class="align-bottom">9</td>
-                <td class="align-bottom">52</td>
-                <td class="align-bottom">36</td>
-                <td class="align-bottom">16</td>
+                <td class="align-middle">69</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">20</td>
+                <td class="align-middle">9</td>
+                <td class="align-middle">9</td>
+                <td class="align-middle">52</td>
+                <td class="align-middle">36</td>
+                <td class="align-middle">16</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(0, 221, 11, 0.671) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">3</p>
-                  <img src="img/gremio.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Grêmio</p>
+                  <img src="img/gremio.png" alt="Logo do Time do Grêmio" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Grêmio</p><br><br>
                 </th>
-                <td class="align-bottom">67</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">20</td>
-                <td class="align-bottom">7</td>
-                <td class="align-bottom">11</td>
-                <td class="align-bottom">64</td>
-                <td class="align-bottom">45</td>
-                <td class="align-bottom">45</td>
+                <td class="align-middle">67</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">20</td>
+                <td class="align-middle">7</td>
+                <td class="align-middle">11</td>
+                <td class="align-middle">64</td>
+                <td class="align-middle">45</td>
+                <td class="align-middle">45</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(221, 218, 22, 0.692) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">4</p>
-                  <img src="img/santos.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Santos</p>
+                  <img src="img/santos.png" alt="Logo do Time do Santos" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Santos</p><br><br>
                 </th>
-                <td class="align-bottom">64</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">18</td>
-                <td class="align-bottom">10</td>
-                <td class="align-bottom">10</td>
-                <td class="align-bottom">58</td>
-                <td class="align-bottom">36</td>
-                <td class="align-bottom">22</td>
+                <td class="align-middle">64</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">18</td>
+                <td class="align-middle">10</td>
+                <td class="align-middle">10</td>
+                <td class="align-middle">58</td>
+                <td class="align-middle">36</td>
+                <td class="align-middle">22</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(221, 218, 22, 0.692) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">5</p>
-                  <img src="img/parana.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Paraná</p>
+                  <img src="img/parana.png" alt="Logo do Time do Paraná" class="col-md-2 col-sm-4 col-xs-4 p-2">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Paraná</p><br><br>
                 </th>
-                <td class="align-bottom">60</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">18</td>
-                <td class="align-bottom">6</td>
-                <td class="align-bottom">14</td>
-                <td class="align-bottom">56</td>
-                <td class="align-bottom">49</td>
-                <td class="align-bottom">7</td>
+                <td class="align-middle">60</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">18</td>
+                <td class="align-middle">6</td>
+                <td class="align-middle">14</td>
+                <td class="align-middle">56</td>
+                <td class="align-middle">49</td>
+                <td class="align-middle">7</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">6</p>
-                  <img src="img/vasco.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Vasco</p>
+                  <img src="img/vasco.png" alt="Logo do Time do Vasco" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Vasco</p><br><br>
                 </th>
-                <td class="align-bottom">59</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">15</td>
-                <td class="align-bottom">14</td>
-                <td class="align-bottom">9</td>
-                <td class="align-bottom">57</td>
-                <td class="align-bottom">50</td>
-                <td class="align-bottom">7</td>
+                <td class="align-middle">59</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">15</td>
+                <td class="align-middle">14</td>
+                <td class="align-middle">9</td>
+                <td class="align-middle">57</td>
+                <td class="align-middle">50</td>
+                <td class="align-middle">7</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">7</p>
-                  <img src="img/figueirense.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Figueirense</p>
+                  <img src="img/figueirense.png" alt="Logo do Time do Figueirense "
+                    class="col-md-2 col-sm-4 col-xs-4 p-2">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Figueirense</p><br><br>
                 </th>
-                <td class="align-bottom">57</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">15</td>
-                <td class="align-bottom">12</td>
-                <td class="align-bottom">11</td>
-                <td class="align-bottom">52</td>
-                <td class="align-bottom">44</td>
-                <td class="align-bottom">8</td>
+                <td class="align-middle">57</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">15</td>
+                <td class="align-middle">12</td>
+                <td class="align-middle">11</td>
+                <td class="align-middle">52</td>
+                <td class="align-middle">44</td>
+                <td class="align-middle">8</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">8</p>
-                  <img src="img/goias.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Goiás</p>
+                  <img src="img/goias.png" alt="Logo do Time do Goiás" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Goiás</p><br><br>
                 </th>
-                <td class="align-bottom">55</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">15</td>
-                <td class="align-bottom">10</td>
-                <td class="align-bottom">13</td>
-                <td class="align-bottom">63</td>
-                <td class="align-bottom">49</td>
-                <td class="align-bottom">14</td>
+                <td class="align-middle">55</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">15</td>
+                <td class="align-middle">10</td>
+                <td class="align-middle">13</td>
+                <td class="align-middle">63</td>
+                <td class="align-middle">49</td>
+                <td class="align-middle">14</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">9</p>
-                  <img src="img/corinthians.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Corinthians</p>
+                  <img src="img/corinthians.png" alt="Logo do Time do Corinthians"
+                    class="col-md-2 col-sm-4 col-xs-4 p-2">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Corinthians</p><br><br>
                 </th>
-                <td class="align-bottom">53</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">15</td>
-                <td class="align-bottom">8</td>
-                <td class="align-bottom">15</td>
-                <td class="align-bottom">41</td>
-                <td class="align-bottom">46</td>
-                <td class="align-bottom">-5</td>
+                <td class="align-middle">53</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">15</td>
+                <td class="align-middle">8</td>
+                <td class="align-middle">15</td>
+                <td class="align-middle">41</td>
+                <td class="align-middle">46</td>
+                <td class="align-middle">-5</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">10</p>
-                  <img src="img/cruzeiro.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Cruzeiro</p>
+                  <img src="img/cruzeiro.png" alt="Logo do Time do Cruzeiro" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Cruzeiro</p><br><br>
                 </th>
-                <td class="align-bottom">53</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">14</td>
-                <td class="align-bottom">11</td>
-                <td class="align-bottom">13</td>
-                <td class="align-bottom">52</td>
-                <td class="align-bottom">45</td>
-                <td class="align-bottom">7</td>
+                <td class="align-middle">53</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">14</td>
+                <td class="align-middle">11</td>
+                <td class="align-middle">13</td>
+                <td class="align-middle">52</td>
+                <td class="align-middle">45</td>
+                <td class="align-middle">7</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(0, 221, 11, 0.671) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">11</p>
-                  <img src="img/flamengo.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Flamengo</p>
+                  <img src="img/flamengo.png" alt="Logo do Time do Flamengo" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Flamengo</p><br><br>
                 </th>
-                <td class="align-bottom">52</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">15</td>
-                <td class="align-bottom">7</td>
-                <td class="align-bottom">16</td>
-                <td class="align-bottom">44</td>
-                <td class="align-bottom">48</td>
-                <td class="align-bottom">-4</td>
+                <td class="align-middle">52</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">15</td>
+                <td class="align-middle">7</td>
+                <td class="align-middle">16</td>
+                <td class="align-middle">44</td>
+                <td class="align-middle">48</td>
+                <td class="align-middle">-4</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">12</p>
-                  <img src="img/botafogo.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Botafogo</p>
+                  <img src="img/botafogo.png" alt="Logo do Time do Botafogo" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Botafogo</p><br><br>
                 </th>
-                <td class="align-bottom">51</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">13</td>
-                <td class="align-bottom">12</td>
-                <td class="align-bottom">13</td>
-                <td class="align-bottom">52</td>
-                <td class="align-bottom">50</td>
-                <td class="align-bottom">2</td>
+                <td class="align-middle">51</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">13</td>
+                <td class="align-middle">12</td>
+                <td class="align-middle">13</td>
+                <td class="align-middle">52</td>
+                <td class="align-middle">50</td>
+                <td class="align-middle">2</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">13</p>
-                  <img src="img/atlhetico-pr.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Atlêtico-PR</p>
+                  <img src="img/atlhetico-pr.png" alt="Logo do Time do Atlêtico-PR"
+                    class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Atlêtico-PR</p><br><br>
                 </th>
-                <td class="align-bottom">48</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">13</td>
-                <td class="align-bottom">9</td>
-                <td class="align-bottom">16</td>
-                <td class="align-bottom">61</td>
-                <td class="align-bottom">62</td>
-                <td class="align-bottom">-1</td>
+                <td class="align-middle">48</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">13</td>
+                <td class="align-middle">9</td>
+                <td class="align-middle">16</td>
+                <td class="align-middle">61</td>
+                <td class="align-middle">62</td>
+                <td class="align-middle">-1</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(143, 142, 142, 0.74) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">14</p>
-                  <img src="img/juventude.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Juventude</p>
+                  <img src="img/juventude.png" alt="Logo do Time do Juventude" class="col-md-2 col-sm-4 col-xs-4 p-2">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Juventude</p><br><br>
                 </th>
-                <td class="align-bottom">47</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">13</td>
-                <td class="align-bottom">8</td>
-                <td class="align-bottom">17</td>
-                <td class="align-bottom">44</td>
-                <td class="align-bottom">54</td>
-                <td class="align-bottom">-10</td>
+                <td class="align-middle">47</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">13</td>
+                <td class="align-middle">8</td>
+                <td class="align-middle">17</td>
+                <td class="align-middle">44</td>
+                <td class="align-middle">54</td>
+                <td class="align-middle">-10</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(143, 142, 142, 0.74) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">15</p>
-                  <img src="img/fluminense.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Fluminense</p>
+                  <img src="img/fluminense.png" alt="Logo do Time do Fluminense"
+                    class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Fluminense</p><br><br>
                 </th>
-                <td class="align-bottom">45</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">11</td>
-                <td class="align-bottom">12</td>
-                <td class="align-bottom">15</td>
-                <td class="align-bottom">48</td>
-                <td class="align-bottom">58</td>
-                <td class="align-bottom">-10</td>
+                <td class="align-middle">45</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">11</td>
+                <td class="align-middle">12</td>
+                <td class="align-middle">15</td>
+                <td class="align-middle">48</td>
+                <td class="align-middle">58</td>
+                <td class="align-middle">-10</td>
               </tr>
-              <tr>
+              <tr style="background-color:rgba(143, 142, 142, 0.74) ;">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">16</p>
-                  <img src="img/palmeiras.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Palmeiras</p>
+                  <img src="img/palmeiras.png" alt="Logo do Time do Palmeiras" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Palmeiras</p><br><br>
                 </th>
-                <td class="align-bottom">44</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">12</td>
-                <td class="align-bottom">8</td>
-                <td class="align-bottom">18</td>
-                <td class="align-bottom">58</td>
-                <td class="align-bottom">70</td>
-                <td class="align-bottom">-12</td>
+                <td class="align-middle">44</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">12</td>
+                <td class="align-middle">8</td>
+                <td class="align-middle">18</td>
+                <td class="align-middle">58</td>
+                <td class="align-middle">70</td>
+                <td class="align-middle">-12</td>
               </tr>
-              <tr>
+              <tr style="background: rgba(220, 20, 60, 0.527);">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">17</p>
-                  <img src="img/ponte-preta.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Ponte Preta</p>
+                  <img src="img/ponte-preta.png" alt="Logo do Time do Ponte Preta"
+                    class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Ponte Preta</p><br><br>
                 </th>
-                <td class="align-bottom">39</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">10</td>
-                <td class="align-bottom">9</td>
-                <td class="align-bottom">19</td>
-                <td class="align-bottom">45</td>
-                <td class="align-bottom">65</td>
-                <td class="align-bottom">-20</td>
+                <td class="align-middle">39</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">10</td>
+                <td class="align-middle">9</td>
+                <td class="align-middle">19</td>
+                <td class="align-middle">45</td>
+                <td class="align-middle">65</td>
+                <td class="align-middle">-20</td>
               </tr>
-              <tr>
+              <tr style="background: rgba(220, 20, 60, 0.527);">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">18</p>
-                  <img src="img/fortaleza.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Fortaleza</p>
+                  <img src="img/fortaleza.png" alt="Logo do Time do Fortaleza" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Fortaleza</p><br><br>
                 </th>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">8</td>
-                <td class="align-bottom">14</td>
-                <td class="align-bottom">16</td>
-                <td class="align-bottom">39</td>
-                <td class="align-bottom">62</td>
-                <td class="align-bottom">-23</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">8</td>
+                <td class="align-middle">14</td>
+                <td class="align-middle">16</td>
+                <td class="align-middle">39</td>
+                <td class="align-middle">62</td>
+                <td class="align-middle">-23</td>
               </tr>
-              <tr>
+              <tr style="background: rgba(220, 20, 60, 0.527);">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">19</p>
-                  <img src="img/sao-caetano.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">São Caetano</p>
+                  <img src="img/sao-caetano.png" alt="Logo do Time do São Caetano"
+                    class="col-md-2 col-sm-4 col-xs-4 p-2">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">São Caetano</p><br><br>
                 </th>
-                <td class="align-bottom">36</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">9</td>
-                <td class="align-bottom">9</td>
-                <td class="align-bottom">20</td>
-                <td class="align-bottom">37</td>
-                <td class="align-bottom">53</td>
-                <td class="align-bottom">-16</td>
+                <td class="align-middle">36</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">9</td>
+                <td class="align-middle">9</td>
+                <td class="align-middle">20</td>
+                <td class="align-middle">37</td>
+                <td class="align-middle">53</td>
+                <td class="align-middle">-16</td>
               </tr>
-              <tr>
+              <tr style="background: rgba(220, 20, 60, 0.527);">
                 <th class="row align-items-center m-0 p-0">
                   <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">20</p>
-                  <img src="img/santa-cruz.png" alt="" class="col-md-2 col-sm-4 col-xs-4 p-2 m-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Santa Cruz</p>
+                  <img src="img/santa-cruz.png" alt="Logo do Time do Santa Cruz"
+                    class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Santa Cruz</p><br><br>
                 </th>
-                <td class="align-bottom ">28</td>
-                <td class="align-bottom">38</td>
-                <td class="align-bottom">7</td>
-                <td class="align-bottom">7</td>
-                <td class="align-bottom">24</td>
-                <td class="align-bottom">41</td>
-                <td class="align-bottom">76</td>
-                <td class="align-bottom">-35</td>
+                <td class="align-middle ">28</td>
+                <td class="align-middle">38</td>
+                <td class="align-middle">7</td>
+                <td class="align-middle">7</td>
+                <td class="align-middle">24</td>
+                <td class="align-middle">41</td>
+                <td class="align-middle">76</td>
+                <td class="align-middle">-35</td>
               </tr>
             </tbody>
           </table>
         </aside>
-        <article id="premiere" class="col-lg-2 col-md-3 col-sm-12 p-4">
-          <figure class="figure mt-5  w-100 text-center " style="padding-top: 12rem;">
-            <img src="img/logo-premiere.png" id="logopremiere" class="img-responsive  w-100  " height="50" alt=""><br>
-            <p>A partir de R$ 59,90/mês</p>
-          </figure>
+        <article id="premiere"class="col-md-2 col-sm-12 p-4">
+          <h2 style="display: none;">.</h2>
+            <figure class="figure mt-5  w-100 text-center " style="padding-top: 12rem;">
+              <img src="img/logo-premiere.png" alt="Logo da empresa Premiere" id="logopremiere" class="img-fluid "
+                height="50"><br>
+              <p>A partir de R$ 59,90/mês</p>
+            </figure>
         </article>
       </div>
-      <div class="row m-auto w-50 border " style="background-color: rgba(128, 128, 128, 0.767);">
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/sao-paulo.png" alt="" class="w-100"></a>
+      <div class="row m-auto w-50 border mt-3 " style="background-color: rgba(128, 128, 128, 0.767);">
+        <aside class="col-lg-2 col-md-4 col-sm-6 col-6 pt-2 imagem">
+          <a href=""><img src="img/sao-paulo.png" alt="Logo do Time do São Paulo" class="img-fluid "></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/internacional.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 col-6 pt-2 imagem">
+          <a href=""><img src="img/internacional.png" alt="Logo do Time do Internacional" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/gremio.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/gremio.png" alt="Logo do Time do Grêmio" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/santos.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/santos.png" alt="Logo do Time do Santos" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/parana.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/parana.png" alt="Logo do Time do Paraná" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/vasco.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/vasco.png" alt="Logo do Time do Vasco" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/figueirense.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/figueirense.png" alt="Logo do Time do Figueirense" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/goias.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/goias.png" alt="Logo do Time do Goiás" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/corinthians.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/corinthians.png" alt="Logo do Time do Corinthians" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/cruzeiro.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/cruzeiro.png" alt="Logo do Time do Cruzeiro" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/flamengo.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/flamengo.png" alt="Logo do Time do Flamengo" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/botafogo.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/botafogo.png" alt="Logo do Time do Botafogo" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/atlhetico-pr.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/atlhetico-pr.png" alt="Logo do Time do Atlêtico-PR" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/juventude.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/juventude.png" alt="Logo do Time do Juventude" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/fluminense.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/fluminense.png" alt="Logo do Time do Fluminense" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/palmeiras.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/palmeiras.png" alt="Logo do Time do Palmeiras" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/ponte-preta.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/ponte-preta.png" alt="Logo do Time do Ponte Preta" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/fortaleza.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/fortaleza.png" alt="Logo do Time do Fortaleza" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/sao-caetano.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/sao-caetano.png" alt="Logo do Time do São Caetano" class="img-fluid"></a>
         </aside>
-        <aside class="col-lg-2 col-md-4 col-sm-12 pt-2 imagem">
-          <a href=""><img src="img/santa-cruz.png" alt="" class="w-100"></a>
+        <aside class="col-lg-2 col-md-4 col-sm-6 pt-2 col-6  imagem">
+          <a href=""><img src="img/santa-cruz.png" alt="Logo do Time do Santa Cruz" class="img-fluid"></a>
         </aside>
       </div>
     </section>
@@ -464,26 +492,32 @@
       <div class="row">
         <div class="col-md-6 col-12">
           <h2>Contatos:</h2>
-          <img src="img/telefone-rodape.png" class="float-left img-fluid py-0 my-0 px-2" width="75" alt="">
+          <img src="img/telefone-rodape.png" alt="Ícone de Telefone" class="float-left img-fluid py-0 my-0 px-2"
+            width="75">
           <span>3333-3333</span><br>
           <span>9-9999-888</span>
         </div>
         <div id="redesocias" class="col-md-6 col-12 text-right ">
           <h2 class="mr-5 pr-5">Redes Socias:</h2>
-          <a href="#"><img src="img/twitter-icon.png" class="img-fluid px-2 imagem" width="75" alt=""></a>
-          <a href="#"><img src="img/facebook-icon.webp" class="img-fluid imagem" width="75" alt=""></a>
-          <a href="#"><img src="img/whatsapp-icon.png" class="img-fluid px-2 imagem" width="75" alt=""></a>
-          <a href="#"><img src="img/instragram-icon.png" class="img-fluid px-3 pt-2 imagem" width="75" alt=""></a>
+          <a href="#"><img src="img/twitter-icon.png" alt="Ícone do Twitter" class="img-fluid px-2 imagem"
+              width="75"></a>
+          <a href="#"><img src="img/facebook-icon.webp" alt="Ícone do Facebook" class="img-fluid imagem" width="75"></a>
+          <a href="#"><img src="img/whatsapp-icon.png" alt="Ícone do Whatsapp" class="img-fluid px-2 imagem"
+              width="75"></a>
+          <a href="#"><img src="img/instragram-icon.png" alt="Ícone do Instagram" class="img-fluid px-3 pt-2 imagem"
+              width="75"></a>
         </div>
       </div>
       <div class="row">
         <div class="col-12">
           <small class="copyright">
             Copyright 2021 - Todos os Direitos Reservados
-        </small>
-        <small class="desenvolvedor" >
-            Desenvolvedores : <ins><a href="https://www.facebook.com/lucas.gades" target="_blank">Lucas Gades</a>,<a href="" target="_blank">Ryan Eugênio</a>, <a href="" target="_blank" >Juliano Godinho</a> e <a href="" target="_blank">Felipe Zamora</a></ins>
-        </small>
+          </small>
+          <small class="desenvolvedor">
+            Desenvolvedores : <ins><a href="https://www.facebook.com/lucas.gades" target="_blank">Lucas Gades</a>,<a
+                href="" target="_blank">Ryan Eugênio</a>, <a href="" target="_blank">Juliano Godinho</a> e <a href=""
+                target="_blank">Felipe Zamora</a></ins>
+          </small>
         </div>
       </div>
     </footer>
