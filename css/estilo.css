@@ -7,10 +7,10 @@
 }
 body{
     background-image: url(../img/fundo-index.jpg);
-    background-color: rgb(51, 102, 18);
-    background-size: 100%;
+    background-size: 2220px;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -186,15 +186,7 @@ margin: 15px;
 
 
 
-
-
-
-
 @media screen and (max-width:765px){
-
-    body{
-        background-size: 2200px;
-    }
 
     .propaganda img{
         width: 50%!important;
