@@ -9,7 +9,6 @@
 body{
 
     background-image: url(../img/fundo-index.jpg);
-    background-size: 100%;
     background-size: 2220px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -46,8 +45,6 @@ nav{
     padding: 0.8rem!important;
 }
 
-
-
 #lupa{
 
     border-color: #ffffff;
@@ -77,8 +74,6 @@ table th , table th tr {
 table td{
     border:1.29px solid black!important;
 }
-
-
 
 tr:nth-child(even) {background: rgba(255, 255, 255, 0.795)}
 tr:nth-child(odd) {background: rgba(182, 181, 181, 0.767)}
@@ -126,8 +121,6 @@ td:hover{
     border-color: rgba(220, 20, 60, 0.527); ;
 }
 
-
-
 #vivo{
     background-color: violet;
     margin-top: 5rem;
@@ -135,8 +128,6 @@ td:hover{
     width: 100%;
     border: 5px solid rebeccapurple;
 }
-
-
 
 #premiere{
     background-color: white;
@@ -156,16 +147,11 @@ td:hover{
 .desenvolvedor a {
     text-decoration: none;
     font-style:italic;
-    
     color: rgb(86, 82, 88);
-    
-
-
 }
 
 .desenvolvedor a:hover{
-
-margin: 15px;
+    margin: 15px;
 }
 
 @media screen and (min-height:1200px) {
@@ -189,37 +175,10 @@ margin: 15px;
     }
 }
 
-@media screen and (max-width:764px){
+@media screen and (max-width:765px){
 
-
-   body{
-       
-       background-size: 2200px!important;
-       background-image: url(../img/fundo-index.jpg);
-       background-size: 100%;
-       background-position: center;
-       background-attachment: fixed;
-       background-repeat: no-repeat
-   }
-    
-
-    .propaganda img{
-        width: 50%!important;
-        margin-left: 10rem!important;
-    }
     #redesocias{
         text-align: left!important;
-    }
-    #vivo img{
-        height: 25%!important;
-       
-    }
-    #vivo{
-     padding-left: 15rem!important;
-     padding-right: 15rem!important;
-     padding-bottom: 12rem!important;
-     position: sticky;
-
     }
     #vivo{
         height: 700px;
@@ -254,20 +213,4 @@ margin: 15px;
         padding-top: 5rem!important;
     }
 }
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
