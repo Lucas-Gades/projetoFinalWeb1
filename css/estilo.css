@@ -5,6 +5,7 @@
     font-family: 'Averia Serif Libre', cursive;
     font-style: bold;
 }
+
 body{
     background-image: url(../img/fundo-index.jpg);
     background-size: 2220px;
@@ -13,35 +14,24 @@ body{
     background-position: center;
 }
 
-
 .imagem:hover{
     transform: scale(1.2);
 }
 
 nav{
-
     background-color: rgb(0, 0, 0)!important;
-
-
 }
 
 .navbar-toggler{
     background-color: white;
 }
 
-
-
-
 .nav-link{
     color: white!important;
     border: none;
     margin-top: 0!important;
     margin-bottom: 0!important;
- 
-
-    
 }
-
 
 .nav-item a {
    margin-left: 5rem;
@@ -52,21 +42,16 @@ nav{
     color: black!important;
     border-radius: 0;
     padding: 0.8rem!important;
-
-    
-  
 }
 
 
 
 #lupa{
-    
-    
+
     border-color: #ffffff;
 }
 
 #lupa:hover{
-
     background-color:#eeff00;
     border-color: #ffffff;
 }
@@ -142,22 +127,21 @@ td:hover{
 
 
 #vivo{
-    margin-top: 5rem;
     background-color: violet;
+    margin-top: 5rem;
     height: 700px;
+    width: 100%;
     border: 5px solid rebeccapurple;
-
-
 }
 
 
 
 #premiere{
-        background-color: white;
-        margin-top: 5rem;
-        height: 700px;
-        width: 100%;
-        border: 5px solid rgb(21, 153, 49);
+    background-color: white;
+    margin-top: 5rem;
+    height: 700px;
+    width: 100%;
+    border: 5px solid rgb(21, 153, 49);
 }
 
 #rodape{
@@ -182,28 +166,38 @@ td:hover{
 margin: 15px;
 }
 
+@media screen and (min-height:1200px) {
+    body{
+        background-size: 275%;
+    }
+}
 
+@media screen and (max-width:1366px) {
+    #vivo figure{
+        padding-top: 7rem!important;
+    }
+}
 
-
+@media screen and (max-width:1024px) {
+    #vivo{
+        height: 450px;
+    }
+    #vivo figure{
+        padding-top: 4rem!important;
+    }
+}
 
 @media screen and (max-width:765px){
 
-    .propaganda img{
-        width: 50%!important;
-        margin-left: 10rem!important;
-    }
     #redesocias{
         text-align: left!important;
     }
-    #vivo img{
-        height: 25%!important;
-    }
     #vivo{
-     padding-left: 15rem!important;
-     padding-right: 15rem!important;
-     padding-bottom: 12rem!important;
+        height: 700px;
     }
-
+    #vivo figure{
+        padding-top: 0rem!important;
+    }
 }
 
 @media screen and (max-width:480px){
@@ -213,21 +207,25 @@ margin: 15px;
         margin: 0 auto!important;
     
     }
-
-    #vivo img{
-        height: 25%!important;
-    }
-    #vivo{
-     padding: 5rem!important;
-    }
-
     #logoDoBrasileraoTabela img ,#logoDoBrasileraoTabela img h2{
         height: 30%!important;
         width: 70%!important;
     
     }
+    #vivo figure{
+        padding-top: 1rem!important;
+    }
+}
 
-
+@media screen and (max-width:375px) {
+    #vivo figure{
+        padding-top: 2.5rem!important;
+    }
+}
+@media screen and (max-width:300px) {
+    #vivo figure{
+        padding-top: 5rem!important;
+    }
 }
 
 
