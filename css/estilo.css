@@ -1,0 +1,273 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
+
+*{
+    font-family: 'Averia Serif Libre', cursive;
+    font-style: bold;
+}
+
+body{
+
+    background-image: url(../img/fundo-index.jpg);
+    background-size: 100%;
+    background-size: 2220px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem:hover{
+    transform: scale(1.2);
+}
+
+nav{
+    background-color: rgb(0, 0, 0)!important;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.nav-link{
+    color: white!important;
+    border: none;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+
+.nav-item a {
+   margin-left: 5rem;
+}
+
+.nav-link:hover{
+    background-color: #eeff00;
+    color: black!important;
+    border-radius: 0;
+    padding: 0.8rem!important;
+}
+
+
+
+#lupa{
+
+    border-color: #ffffff;
+}
+
+#lupa:hover{
+    background-color:#eeff00;
+    border-color: #ffffff;
+}
+
+#logoDoBrasileraoTabela{
+    float: left;
+}
+
+#tabela{
+    background-color: #eeff00!important;
+}
+
+table{
+    border:2px solid rgb(0, 0, 0)!important;
+}
+
+table th , table th tr {
+    border:0.8px solid black!important;
+}
+
+table td{
+    border:1.29px solid black!important;
+}
+
+
+
+tr:nth-child(even) {background: rgba(255, 255, 255, 0.795)}
+tr:nth-child(odd) {background: rgba(182, 181, 181, 0.767)}
+
+tr:hover{
+    background-color: rgb(68, 81, 190)!important;
+}
+
+td:hover{
+    background-color: rgba(29, 27, 156, 0.479);
+}
+
+
+#verde{
+    width: 1px!important;
+    height: 5px;
+    border: 15px solid ;
+    border-color: rgba(0, 221, 11, 0.671);
+}
+
+#amarelo{
+    width: 1px!important;
+    height: 5px;
+    border: 15px solid ;
+    border-color: rgba(221, 218, 22, 0.692) ;
+}
+#laranja{
+    width: 1px!important;
+    height: 5px;
+    border: 15px solid ;
+    border-color: rgba(219, 127, 6, 0.712) ;;
+}
+
+#cinza{
+    width: 1px!important;
+    height: 5px;
+    border: 15px solid ;
+    border-color: rgba(143, 142, 142, 0.74) ; ;
+}
+
+#vermelho{
+    width: 1px!important;
+    height: 5px;
+    border: 15px solid ;
+    border-color: rgba(220, 20, 60, 0.527); ;
+}
+
+
+
+#vivo{
+    background-color: violet;
+    margin-top: 5rem;
+    height: 700px;
+    width: 100%;
+    border: 5px solid rebeccapurple;
+}
+
+
+
+#premiere{
+    background-color: white;
+    margin-top: 5rem;
+    height: 700px;
+    width: 100%;
+    border: 5px solid rgb(21, 153, 49);
+}
+
+#rodape{
+    background-color: rgb(182, 178, 178);
+    border-top: solid black;
+    border-left: solid black;
+    border-right: solid black;
+}
+
+.desenvolvedor a {
+    text-decoration: none;
+    font-style:italic;
+    
+    color: rgb(86, 82, 88);
+    
+
+
+}
+
+.desenvolvedor a:hover{
+
+margin: 15px;
+}
+
+@media screen and (min-height:1200px) {
+    body{
+        background-size: 275%;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    #vivo figure{
+        padding-top: 7rem!important;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    #vivo{
+        height: 450px;
+    }
+    #vivo figure{
+        padding-top: 4rem!important;
+    }
+}
+
+@media screen and (max-width:764px){
+
+
+   body{
+       
+       background-size: 2200px!important;
+       background-image: url(../img/fundo-index.jpg);
+       background-size: 100%;
+       background-position: center;
+       background-attachment: fixed;
+       background-repeat: no-repeat
+   }
+    
+
+    .propaganda img{
+        width: 50%!important;
+        margin-left: 10rem!important;
+    }
+    #redesocias{
+        text-align: left!important;
+    }
+    #vivo img{
+        height: 25%!important;
+       
+    }
+    #vivo{
+     padding-left: 15rem!important;
+     padding-right: 15rem!important;
+     padding-bottom: 12rem!important;
+     position: sticky;
+
+    }
+    #vivo{
+        height: 700px;
+    }
+    #vivo figure{
+        padding-top: 0rem!important;
+    }
+@media screen and (max-width:480px){
+
+  th img{
+        width: 50%!important; 
+        margin: 0 auto!important;
+    
+    }
+    #logoDoBrasileraoTabela img ,#logoDoBrasileraoTabela img h2{
+        height: 30%!important;
+        width: 70%!important;
+    
+    }
+    #vivo figure{
+        padding-top: 1rem!important;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #vivo figure{
+        padding-top: 2.5rem!important;
+    }
+}
+@media screen and (max-width:300px) {
+    #vivo figure{
+        padding-top: 5rem!important;
+    }
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
