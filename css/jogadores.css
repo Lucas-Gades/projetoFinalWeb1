@@ -9,6 +9,7 @@
     font-style: bold;
 }
 
+
 div{
     margin: 0 auto!important;
 }
@@ -19,7 +20,7 @@ p{
 }
 
 p span{
-    font-size: 18px!important;
+    font-size:15px!important;
 }
 
 body{
@@ -35,7 +36,20 @@ body{
 }
 
 
+.imagem:hover {
+    transform: scale(1.2);
+}
+
+.card:hover{
+    transform: scale(1.1)!important;
+   
+    
+}
+
+
 .imagem{
+    height: 110px;
+    width: 240px;
     background-image: url(../img/camisa.png);
     background-size: 50% 120px ;
     background-position: center;

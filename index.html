@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <script type="text/javascript" src="js/js.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
@@ -24,9 +25,9 @@
   </script>
 </head>
 
-<body>
+<body style="padding-top: 80px; ">
   <main class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg navbar-dark " >
       <a class="navbar-brand" href="#"> <img src="img/logoBrasileirao.png" class="img-thumbnail" width="45" height="30"
           alt="Logo do Brasileirão"></a>
       <button class="navbar-toggler  bg-info " type="button" data-toggle="collapse"
@@ -46,7 +47,7 @@
             <a class="nav-link" href="#">Times</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Jogadores</a>
+            <a class="nav-link" href="jogadores.html" target="_blank">Jogadores</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contatos</a>
@@ -81,12 +82,11 @@
           <article id="vivo" class="col-md-12 col-sm-12 p-4">
             <h2 style="display: none;">.</h2>
             <figure class="figure mt-5 w-100 text-center" style="padding-top: 2rem;">
-            <img src="img/vivo.png" class="img-fluid" height="15" alt="Logo da empresa da Vivo"><br>
-            <img src="img/boneco.png" class="img-fluid" height="50"
-              alt="Logo do mascote da empresa da Vivo"><br>
-            <img src="img/logo-45g-fibra-vivo.png" class="img-fluid" height="20" alt="4.5g Fibra">
+              <img src="img/vivo.png" class="img-fluid" height="15" alt="Logo da empresa da Vivo"><br>
+              <img src="img/boneco.png" class="img-fluid" height="50" alt="Logo do mascote da empresa da Vivo"><br>
+              <img src="img/logo-45g-fibra-vivo.png" class="img-fluid" height="20" alt="4.5g Fibra">
           </article>
-        </figure>
+          </figure>
         </article>
         <aside class="col-md-8 col-sm-12 ">
           <table class="table table-bordered table-responsive-lg table-responsive-md table-responsive-sm p-0 ">
@@ -418,16 +418,17 @@
             </tbody>
           </table>
         </aside>
-        <article id="premiere"class="col-md-2 col-sm-12 p-4">
+        <article id="premiere" class="col-md-2 col-sm-12 p-4">
           <h2 style="display: none;">.</h2>
-            <figure class="figure mt-5  w-100 text-center " style="padding-top: 12rem;">
-              <img src="img/logo-premiere.png" alt="Logo da empresa Premiere" id="logopremiere" class="img-fluid "
-                height="50"><br>
-              <p>A partir de R$ 59,90/mês</p>
-            </figure>
+          <figure class="figure mt-5  w-100 text-center " style="padding-top: 12rem;">
+            <img src="img/logo-premiere.png" alt="Logo da empresa Premiere" id="logopremiere" class="img-fluid "
+              height="50"><br>
+            <p>A partir de R$ 59,90/mês</p>
+          </figure>
         </article>
       </div>
       <div class="row m-auto w-50 border mt-3 " style="background-color: rgba(128, 128, 128, 0.767);">
+        <h2 class="col-md-12"> Jogadores: </h2>
         <aside class="col-lg-2 col-md-4 col-sm-6 col-6 pt-2 imagem">
           <a href=""><img src="img/sao-paulo.png" alt="Logo do Time do São Paulo" class="img-fluid "></a>
         </aside>
@@ -492,14 +493,36 @@
     </section>
     <footer id="rodape" class="p-2">
       <div class="row">
-        <div class="col-md-6 col-12">
+        <div class="col-md-4 col-12">
           <h2>Contatos:</h2>
           <img src="img/telefone-rodape.png" alt="Ícone de Telefone" class="float-left img-fluid py-0 my-0 px-2"
             width="75">
           <span>3333-3333</span><br>
           <span>9-9999-888</span>
         </div>
-        <div id="redesocias" class="col-md-6 col-12 text-right ">
+        <div class="col-md-4 text-center">
+          <h2>Deixe sua Mensagem: </h2>
+          <form class="form" method="post">
+            <div class="form-group">
+              <label>Nome: </label>
+              <input type="text" name="txtnome" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>E-mail: </label>
+              <input type="text" name="txtemail" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Mensagem: </label>
+              <textarea name="txtmensagem" rows="5" cols="30" placeholder="Mensagem aqui."
+                class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" name="envio" value="Enviar" class="btn btn-warning">
+              <input type="reset" name="limpa" value="Limpar" class="btn btn-warning">
+            </div>
+          </form>
+       </div>
+        <div id="redesocias" class="col-md-4 col-12 text-right ">
           <h2 class="mr-5 pr-5">Redes Socias:</h2>
           <a href="#"><img src="img/twitter-icon.png" alt="Ícone do Twitter" class="img-fluid px-2 imagem"
               width="75"></a>
@@ -511,6 +534,7 @@
         </div>
       </div>
       <div class="row">
+       
         <div class="col-12">
           <small class="copyright">
             Copyright 2021 - Todos os Direitos Reservados
@@ -522,6 +546,7 @@
           </small>
         </div>
       </div>
+    
     </footer>
   </main>
 </body>

@@ -3,7 +3,7 @@
 
 *{
     font-family: 'Averia Serif Libre', cursive;
-    font-style: bold;
+    font-style: bold!important;
 }
 
 body{
@@ -60,7 +60,8 @@ nav{
 }
 
 #tabela{
-    background-color: #eeff00!important;
+    background-color: #09dbdba8!important;
+
 }
 
 table{
@@ -138,7 +139,7 @@ td:hover{
 }
 
 #rodape{
-    background-color: rgb(182, 178, 178);
+    background-color: rgba(182, 178, 178, 0.548);
     border-top: solid black;
     border-left: solid black;
     border-right: solid black;
