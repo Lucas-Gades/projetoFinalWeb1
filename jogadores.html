@@ -24,8 +24,46 @@
     </script>
 </head>
 <body>
-    <main class="container">
-        <section class="row mt-5 " >
+    <main class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
+              <a class="navbar-brand" href="#"> <img src="img/logoBrasileirao.png" class="img-thumbnail" width="45" height="30"
+                  alt="Logo do Brasileirão"></a>
+              <button class="navbar-toggler  bg-info " type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link " href="index.html">Início </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Classificação</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Times</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="jogadores.html" target="_blank">Jogadores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contatos</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input id="pesquisar" class="form-control mr-sm-2 col-9 " style="margin-right: 1%;" type="search"
+                    placeholder="Pesquise Aqui.." aria-label="Search">
+                  <button id="lupa" class="btn  my-2 my-sm-0 col-2" type="submit">
+                    <img src="img/lupa.png" style="height: 15px; " sclass="img-fluid text-right "
+                      alt="Icone da Lupa de Pesquisa">
+                  </button>
+                </form>
+              </div>
+            </nav>
+          </header>
+        <section class="row mt-5 container" >
             <div class="card col-10 col-md-3 col-sm-12 ml-2 p-0 mt-5 " style="width: 18rem; background: yellow; border: 5px solid darkgreen; ">
                 <h2 class="text-center " style="background-color: rgba(0, 127, 247, 0.74); margin-bottom: 0;">David Luiz</h2>
                 <img src="img/davi.jpg" style="border:2px solid black; " height="240" class="" alt="...">
@@ -183,6 +221,39 @@
                 </div>
             </div>
         </section>
+        <footer id="rodape" class="p-2">
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <h2>Contatos:</h2>
+                <img src="img/telefone-rodape.png" alt="Ícone de Telefone" class="float-left img-fluid py-0 my-0 px-2"
+                  width="75">
+                <span>3333-3333</span><br>
+                <span>9-9999-888</span>
+              </div>
+              <div id="redesocias" class="col-md-6 col-12 text-right ">
+                <h2 class="mr-5 pr-5">Redes Socias:</h2>
+                <a href="#"><img src="img/twitter-icon.png" alt="Ícone do Twitter" class="img-fluid px-2 imagem-footer"
+                    width="75"></a>
+                <a href="#"><img src="img/facebook-icon.webp" alt="Ícone do Facebook" class="img-fluid imagem-footer" width="75"></a>
+                <a href="#"><img src="img/whatsapp-icon.png" alt="Ícone do Whatsapp" class="img-fluid px-2 imagem-footer"
+                    width="75"></a>
+                <a href="#"><img src="img/instragram-icon.png" alt="Ícone do Instagram" class="img-fluid px-3 pt-2 imagem-footer"
+                    width="75"></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <small class="copyright">
+                  Copyright 2021 - Todos os Direitos Reservados
+                </small>
+                <small class="desenvolvedor">
+                  Desenvolvedores : <ins><a href="https://www.facebook.com/lucas.gades" target="_blank">Lucas Gades</a>,<a
+                      href="https://www.facebook.com/ryan.eugenio.18" target="_blank">Ryan Eugênio</a>, <a href="" target="_blank">Juliano Godinho</a> e <a href=""
+                      target="_blank">Felipe Zamora</a></ins>
+                </small>
+              </div>
+            </div>
+          </footer>
     </main>
 </body>
 </html>

@@ -31,21 +31,55 @@ body{
     background-repeat: no-repeat;
 }
 
+nav{
+    background-color: rgba(0, 0, 0, 0.404)!important;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.nav-link{
+    color: white!important;
+    border: none;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+    transition-property: all!important;
+    transition-duration: 750ms!important;
+}
+
+.nav-item a {
+   margin-left: 5rem;
+}
+
+.nav-link:hover{
+    background-color: #eeff00!important;
+    color: black!important;
+    border-radius: 0!important;
+    transform: scale(1.2)!important;
+}
+
+#lupa{
+
+    border-color: #ffffff;
+}
+
+#lupa:hover{
+    background-color:#eeff00;
+    border-color: #ffffff;
+}
+
+#pesquisar:hover{
+    cursor: pointer!important;
+}
+
+#pesquisar:focus{
+    cursor: text!important;
+}
+
 .row{
     margin: 0 auto!important;
 }
-
-
-.imagem:hover {
-    transform: scale(1.2);
-}
-
-.card:hover{
-    transform: scale(1.1)!important;
-   
-    
-}
-
 
 .imagem{
     height: 110px;
@@ -54,11 +88,45 @@ body{
     background-size: 50% 120px ;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: default;
 }
 
+.card{
+    transition-property: transform!important;
+    transition-duration: 650ms!important;
+}
 
+.card:hover{
+    transform: scale(1.08);
+}
 
-@media screen and (max-width:764px){
+#rodape{
+    background-color: rgba(182, 178, 178, 0.678)!important;
+    border-top: solid black;
+    border-left: solid black;
+    border-right: solid black;
+}
+
+.desenvolvedor a {
+    text-decoration: none;
+    font-style:italic;
+    color: rgb(86, 82, 88);
+}
+
+.desenvolvedor a:hover{
+    margin: 15px;
+}
+
+.imagem-footer{
+    transition-property: transform;
+    transition-duration: 100ms;
+}
+
+.imagem-footer:hover{
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:765px){
 
     body{
         
@@ -69,5 +137,7 @@ body{
         background-attachment: fixed;
         background-repeat: no-repeat
     }
-
+    #redesocias{
+        text-align: left!important;
+    }
 }
