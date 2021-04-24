@@ -15,7 +15,7 @@
                 $timeJogador = $jogador->getTimeJogador();
                 
                 echo "
-                <aside class='col-md-3 col-sm-6 col-xs-12'>
+                <aside col-md-3>
                     <div class='card col-10 col-md-3 col-sm-6 ml-2 p-0 mt-5' style='width: 26rem; background: yellow; border: 5px solid darkgreen; margin-bottom:20px;'>
                         <h2 class='text-center' style='background-color: rgba(0, 127, 247, 0.74); margin-bottom: ;'>$nome</h2>
                         <img src='../img/$foto' style='border:2px solid black; height:240px; width:100%;' class='' alt='...''>
