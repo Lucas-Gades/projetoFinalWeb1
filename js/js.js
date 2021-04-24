@@ -1,11 +1,11 @@
 alert('oi');
-function validar(){
+
+function validar() {
     var nome = document.getElementById('nome').value;
-    if(nome.lenght < 2){
-        alert('Digite corretmanete seu nome');
+    if(nome.length < 2){
+        alert('Digite seu nome');
         document.getElementById('nome').focus();
-    } else{
+    }else{
         window.document.form.submit();
     }
-
 }
