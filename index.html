@@ -42,16 +42,16 @@
               <a class="nav-link " href="index.html">Início </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Classificação</a>
+              <a class="nav-link" href="#classificacao">Classificação</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Times</a>
+              <a class="nav-link" href="#times">Times</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="view/listagem.php">Jogadores</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contatos</a>
+              <a class="nav-link" href="#contato">Contatos</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -91,12 +91,12 @@
           </figure>
         </article>
         <aside class="col-md-8 col-sm-12 ">
-          <table class="table table-responsive-lg table-responsive-md table-responsive-sm p-0 ">
-            <thead>
+          <table class="table table-responsive-lg table-responsive-md table-responsive-sm p-0 " id="classificacao">
+            <thead >
               <tr id="tabela">
                 <th scope="col">
-                  <div id="logoDoBrasileraoTabela" class="text-center align-items-end p-0">
-                    <img src="img/logoBrasileirao.png" alt="Logo do Brasileirão" class="img-fluid col-lg-2 w-50 ">
+                  <div id="logoDoBrasileraoTabela " class="text-center align-items-end p-0" >
+                    <img src="img/logoBrasileirao.png" alt="Logo do Brasileirão" class="img-fluid col-lg-2 w-50 " >
                     CLASSIFICAÇÃO
                 </th>
                 <th scope="col">PG</th>
@@ -430,7 +430,7 @@
         </article>
       </div>
       <div class="row m-auto w-50 border mt-3 " style="background-color: rgba(128, 128, 128, 0.767);">
-        <h2 class="col-md-12"> Jogadores: </h2>
+        <h2 class="col-md-12" id="times"> Times: </h2>
         <aside class="col-lg-2 col-md-4 col-sm-6 col-6 pt-2 imagem">
           <a href=""><img src="img/sao-paulo.png" alt="Logo do Time do São Paulo" class="img-fluid "></a>
         </aside>
@@ -496,7 +496,7 @@
     <footer id="rodape" class="p-2">
       <div class="row">
         <div class="col-md-4 col-12">
-          <h2>Contatos:</h2>
+          <h2 id="contato">Contatos:</h2>
           <img src="img/telefone-rodape.png" alt="Ícone de Telefone" class="float-left img-fluid py-0 my-0 px-2"
             width="75">
           <span>3333-3333</span><br>
@@ -504,16 +504,16 @@
         </div>
         <div class="col-md-4 text-center">
           <h2>Deixe sua Mensagem: </h2>
-          <form class="form" method="post">
+          <form class="form" id="form" method="post">
             <div class="form-row">
             <div class="form-group col-md-6">
               <label>Nome: </label>
-              <input type="text" name="txtnome" class="form-control" placeholder="Digite seu nome aqui">
+              <input type="text" name="txtnome" id="nome" class="form-control" placeholder="Digite seu nome aqui">
             </div>
             <div class="form-group col-md-6">
               <label class="col-md-12">Sexo:</label>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                <input class="form-check-input"  type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
                 <label class="form-check-label" for="exampleRadios1">Masculino</label>
               </div>
               <div class="form-check form-check-inline">
