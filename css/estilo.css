@@ -186,19 +186,51 @@ form label{
     font-weight: bold;
 }
 
+form input:hover{
+    cursor: pointer!important;
+}
+
+form input:focus{
+    cursor: text!important;
+    border: 2px solid #eeff00!important;
+    
+}
+
+form textarea:hover{
+    cursor: pointer!important;
+}
+
+form textarea:focus{
+    cursor: text!important;
+}
+
+.form-control:focus{
+    box-shadow: 1px 1px 5px #eeff00!important;
+}
+
+.form-check-input:checked{
+    border: 2px solid #eeff00!important;
+}
+
 #deixe-sua-mensagem{
     font-weight: bold;
     padding: 1rem;
     color: black;
 }
 
-#rodape span{
+#contato-div span{
     font-size: 1.5rem;
 }
 
 @media screen and (max-width:1366px) {
     #vivo figure{
         padding-top: 7rem!important;
+    }
+    #contato-div span{
+        font-size: 1.3rem!important;
+    }
+    #contato-div img{
+        width: 80px!important;
     }
 }
 
@@ -217,12 +249,36 @@ form label{
     #vivo figure{
         padding-top: 4rem!important;
     }
+    #instagram-icon{
+        padding: 0.5rem!important;
+    }
+    #contato-div img{
+        float: none!important;
+        width: 100px!important;
+    }
 }
 
 @media screen and (max-width:765px){
 
     #redesocias{
-        text-align: left!important;
+        text-align: center!important;
+        
+    }
+    #redesocias img{
+        width: 80px!important;
+        margin: 0 2rem 0 2rem!important;
+    }
+    #contato-div{
+        text-align: center;
+    }
+    #contato-div img{
+        float: none!important;
+    }
+    #contato-div span{
+        padding: 0rem 0.5rem 0rem 0.5rem!important;
+    }
+    br{
+        content:' ';
     }
     #vivo{
         height: 700px;
@@ -245,6 +301,9 @@ form label{
     }
     #vivo figure{
         padding-top: 1rem!important;
+    }
+    br{
+        content:normal;
     }
 }
 
