@@ -181,8 +181,19 @@ tr:hover{
 }
 
 form label{
+    letter-spacing: 0.15rem;
+    padding: 0.22rem;
     font-weight: bold;
-    text-shadow: 1.2px 1.2px rgb(87, 87, 87);
+}
+
+#deixe-sua-mensagem{
+    font-weight: bold;
+    padding: 1rem;
+    color: black;
+}
+
+#rodape span{
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width:1366px) {
