@@ -85,6 +85,12 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Contatos</a>
             </li>
+            <li class="nav-item">
+              <a href="cadastro.php" class="nav-link">Cadastro Time</a>
+            </li>
+            <li class="nav-item">
+              <a href="cadastrojogador.php" class="nav-link">Cadastro Jogador</a>
+            </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input id="pesquisar" class="form-control mr-sm-2 col-9 " style="margin-right: 1%;" type="search"

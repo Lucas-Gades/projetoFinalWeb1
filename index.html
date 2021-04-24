@@ -53,6 +53,12 @@
             <li class="nav-item">
               <a class="nav-link" href="#contato">Contatos</a>
             </li>
+            <li class="nav-item">
+              <a href="view/cadastro.php" class="nav-link">Cadastro Time</a>
+            </li>
+            <li class="nav-item">
+              <a href="view/cadastrojogador.php" class="nav-link">Cadastro Jogador</a>
+            </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input id="pesquisar" class="form-control mr-sm-2 col-9 " style="margin-right: 1%;" type="search"
@@ -429,7 +435,7 @@
           </figure>
         </article>
       </div>
-      <div class="row m-auto w-50 border mt-3 " style="background-color: rgba(128, 128, 128, 0.767);">
+      <div class="row mx-auto w-50 border mt-3 " style="background-color: rgba(128, 128, 128, 0.767);">
         <h2 class="col-md-12" id="times"> Times: </h2>
         <aside class="col-lg-2 col-md-4 col-sm-6 col-6 pt-2 imagem">
           <a href=""><img src="img/sao-paulo.png" alt="Logo do Time do São Paulo" class="img-fluid "></a>
@@ -495,15 +501,15 @@
     </section>
     <footer id="rodape" class="p-2">
       <div class="row">
-        <div class="col-md-4 col-12">
-          <h2 id="contato">Contatos:</h2>
+        <div class="col-md-2 col-12">
+          <h2 id="contato" class="">Contatos:</h2>
           <img src="img/telefone-rodape.png" alt="Ícone de Telefone" class="float-left img-fluid py-0 my-0 px-2"
-            width="75">
-          <span>3333-3333</span><br>
-          <span>9-9999-888</span>
+            width="80">         
+              <span>3333-3333</span><br>
+              <span>9-9999-888</span>
         </div>
-        <div class="col-md-4 text-center">
-          <h2>Deixe sua Mensagem: </h2>
+        <div class="col-md-8 text-center">
+          <h2 id="deixe-sua-mensagem">Deixe sua Mensagem: </h2>
           <form class="form" id="form" method="post">
             <div class="form-row">
             <div class="form-group col-md-6">
@@ -525,11 +531,11 @@
                 <label class="form-check-label" for="exampleRadios3">Outros</label>
               </div>            
             </div>
-            <div class="form-group col-md-12">
+            <div class="form-group col-md-6">
               <label>E-mail: </label>
               <input type="text" name="txtemail" id="email" class="form-control" placeholder="Digite seu e-mail aqui">
             </div>
-            <div class="form-group col-md-12">
+            <div class="form-group col-md-6">
               <label class="col-md-12">Assuntos:</label>
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" id="opcao1" value="option1">
@@ -564,14 +570,14 @@
           </div>
           </form>
        </div>
-        <div id="redesocias" class="col-md-4 col-12 text-right ">
-          <h2 class="mr-5 pr-5">Redes Socias:</h2>
-          <a href="#"><img src="img/twitter-icon.png" alt="Ícone do Twitter" class="img-fluid px-2 imagem"
+        <div id="redesocias" class="col-md-2 col-12 text-right">
+          <h2 class="mr-2 pr-2 col-12">Redes Socias:</h2>
+          <a href="#"><img src="img/twitter-icon.png" alt="Ícone do Twitter" class="img-fluid col-md-4 px-2 imagem"
               width="75"></a>
-          <a href="#"><img src="img/facebook-icon.webp" alt="Ícone do Facebook" class="img-fluid imagem" width="75"></a>
-          <a href="#"><img src="img/whatsapp-icon.png" alt="Ícone do Whatsapp" class="img-fluid px-2 imagem"
+          <a href="#"><img src="img/facebook-icon.webp" alt="Ícone do Facebook" class="img-fluid col-md-4 p-0 imagem" width="75"></a>
+          <a href="#"><img src="img/whatsapp-icon.png" alt="Ícone do Whatsapp" class="img-fluid px-2 col-md-4 imagem"
               width="75"></a>
-          <a href="#"><img src="img/instragram-icon.png" alt="Ícone do Instagram" class="img-fluid px-3 pt-2 imagem"
+          <a href="#"><img src="img/instragram-icon.png" alt="Ícone do Instagram" class="img-fluid px-3 col-md-4 pt-2 imagem"
               width="75"></a>
         </div>
       </div>
