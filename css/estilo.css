@@ -17,7 +17,7 @@ body{
 
 .imagem{
     transition-property: transform;
-    transition-duration: 100ms;
+    transition-duration: 800ms;
 }
 
 .imagem:hover{
@@ -185,17 +185,19 @@ form label{
     text-shadow: 1.2px 1.2px rgb(87, 87, 87);
 }
 
+@media screen and (max-width:1366px) {
+    #vivo figure{
+        padding-top: 7rem!important;
+    }
+}
+
+
 @media screen and (min-height:1200px) {
     body{
         background-size: 275%;
     }
 }
 
-@media screen and (max-width:1366px) {
-    #vivo figure{
-        padding-top: 7rem!important;
-    }
-}
 
 @media screen and (max-width:1024px) {
     #vivo{
