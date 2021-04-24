@@ -59,9 +59,44 @@
 
     <main class="container">
 
-        <header class="jumbotron text-center">
-            <h1>Listagem</h1>
-        </header>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
+        <a class="navbar-brand" href="#"> <img src="../img/logoBrasileirao.png" class="img-thumbnail" width="45" height="30"
+            alt="Logo do Brasileirão"></a>
+        <button class="navbar-toggler  bg-info " type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="../index.html">Início </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Classificação</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Times</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="listagem.html">Jogadores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contatos</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input id="pesquisar" class="form-control mr-sm-2 col-9 " style="margin-right: 1%;" type="search"
+              placeholder="Pesquise Aqui.." aria-label="Search">
+            <button id="lupa" class="btn  my-2 my-sm-0 col-2" type="submit">
+              <img src="../img/lupa.png" style="height: 15px; " sclass="img-fluid text-right "
+                alt="Icone da Lupa de Pesquisa">
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
 
         <section class="container" style="margin-bottom:20px; color:white;">
             <form action="listagem.php" method="POST" class="listas">
@@ -112,7 +147,7 @@
             </form>
         </section>
 
-        <section class="row container">
+        <section class=" row container-fluid">
             <?php
                 ListagemView::criarCArd($jogadores);
                 if (isset($_GET["btnFiltro"])) {
