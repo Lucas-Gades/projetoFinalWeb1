@@ -74,10 +74,10 @@
               <a class="nav-link " href="../index.html">Início </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Classificação</a>
+              <a class="nav-link" href="../index.html#classificacao">Classificação</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Times</a>
+              <a class="nav-link" href="../index.html#times">Times</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="listagem.html">Jogadores</a>
@@ -99,7 +99,7 @@
     </header>
 
         <section class="container" style="margin-bottom:20px; color:white;">
-            <form action="listagem.php" method="POST" class="listas">
+            <form class="mt-5" action="listagem.php" method="POST" class="listas">
                 <div class="row">
                     <div class="col-md-3">
                         <strong><label for="txtFiltro">Filtrar</label></strong>
@@ -147,7 +147,7 @@
             </form>
         </section>
 
-        <section class=" row container-fluid">
+        <section class=" row container">
             <?php
                 ListagemView::criarCArd($jogadores);
                 if (isset($_GET["btnFiltro"])) {

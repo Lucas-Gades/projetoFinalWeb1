@@ -513,53 +513,53 @@
             <div class="form-group col-md-6">
               <label class="col-md-12">Sexo:</label>
               <div class="form-check form-check-inline">
-                <input class="form-check-input"  type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                <input class="form-check-input"   type="radio" name="exampleRadios" id="masculino" value="option1">
                 <label class="form-check-label" for="exampleRadios1">Masculino</label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="feminino" value="option2">
                 <label class="form-check-label" for="exampleRadios2">Feminino</label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="outros" value="option3">
                 <label class="form-check-label" for="exampleRadios3">Outros</label>
               </div>            
             </div>
             <div class="form-group col-md-12">
               <label>E-mail: </label>
-              <input type="text" name="txtemail" class="form-control" placeholder="Digite seu e-mail aqui">
+              <input type="text" name="txtemail" id="email" class="form-control" placeholder="Digite seu e-mail aqui">
             </div>
             <div class="form-group col-md-12">
               <label class="col-md-12">Assuntos:</label>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <input class="form-check-input" type="checkbox" id="opcao1" value="option1">
                 <label class="form-check-label" for="inlineCheckbox1">Bug no site</label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <input class="form-check-input" type="checkbox" id="opcao2" value="option2">
                 <label class="form-check-label" for="inlineCheckbox2">Melhorias</label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                <input class="form-check-input" type="checkbox" id="opcao3" value="option3">
                 <label class="form-check-label" for="inlineCheckbox3">Curiosidades</label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                <input class="form-check-input" type="checkbox" id="opcao4" value="option4">
                 <label class="form-check-label" for="inlineCheckbox3">Ajuda</label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+                <input class="form-check-input" type="checkbox" id="opçao5" value="option5">
                 <label class="form-check-label" for="inlineCheckbox3">Outros..</label>
               </div>
             </div>
             <div class="form-group col-md-12">
               <label>Mensagem: </label>
-              <textarea name="txtmensagem" rows="5" cols="30" placeholder="Digite sua mensagem aqui.."
+              <textarea name="txtmensagem" rows="5" cols="30" id="mensagem" placeholder="Digite sua mensagem aqui.."
                 class="form-control"></textarea>
             </div>
             <div class="form-group col-md-12">
-              <input type="submit" name="envio" value="Enviar" class="btn">
-              <input type="reset" name="limpa" value="Limpar" class="btn">
+              <input type="submit" name="envio" value="Enviar" class="btn " onclick="validar()">
+              <input type="reset" name="limpa" value="Limpar" class="btn" >
             </div>
           </div>
           </form>
