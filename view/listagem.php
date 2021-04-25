@@ -61,8 +61,7 @@
 
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
-        <a class="navbar-brand" href="#"> <img src="../img/logoBrasileirao.png" class="img-thumbnail" width="45" height="30"
-            alt="Logo do Brasileirão"></a>
+        <a class="navbar-brand" href="#"> <img src="../img/logoBrasileirao.png" id="logoBrasileiraoNav" class="img-thumbnail img-fluid" alt="Logo do Brasileirão"></a>
         <button class="navbar-toggler  bg-info " type="button" data-toggle="collapse"
           data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -104,7 +103,7 @@
       </nav>
     </header>
 
-        <section class="container" style="margin-bottom:20px; color:white;">
+        <section class="container py-4" style="margin-bottom:20px; color:white;">
             <form class="mt-5" action="listagem.php" method="POST" class="listas">
                 <div class="row">
                     <div class="col-md-3">

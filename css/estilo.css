@@ -4,6 +4,7 @@
 *{
     font-family: 'Averia Serif Libre', cursive;
     font-style: bold!important;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -26,6 +27,10 @@ body{
 
 nav{
     background-color: rgb(0, 0, 0)!important;
+}
+#logoBrasileiraoNav{
+    width: 3.5rem!important;
+    margin: 10px;
 }
 
 .navbar-toggler{
@@ -184,6 +189,11 @@ form label{
     letter-spacing: 0.15rem;
     padding: 0.22rem;
     font-weight: bold;
+    text-shadow: 1px 1px 2px dimgray!important;
+}
+
+form input{
+    border: 2px solid black!important;
 }
 
 form input:hover{
@@ -193,7 +203,10 @@ form input:hover{
 form input:focus{
     cursor: text!important;
     border: 2px solid #eeff00!important;
-    
+}
+
+form textarea{
+    border: 2px solid black!important;
 }
 
 form textarea:hover{
@@ -202,20 +215,18 @@ form textarea:hover{
 
 form textarea:focus{
     cursor: text!important;
+    border: 2px solid #eeff00!important;
 }
 
 .form-control:focus{
     box-shadow: 1px 1px 5px #eeff00!important;
 }
 
-.form-check-input:checked{
-    border: 2px solid #eeff00!important;
-}
-
 #deixe-sua-mensagem{
     font-weight: bold;
     padding: 1rem;
-    color: black;
+    
+    text-shadow: 1px 1px 2px dimgray!important;
 }
 
 #contato-div span{
@@ -297,7 +308,6 @@ form textarea:focus{
     #logoDoBrasileraoTabela img ,#logoDoBrasileraoTabela img h2{
         height: 30%!important;
         width: 70%!important;
-    
     }
     #vivo figure{
         padding-top: 1rem!important;
