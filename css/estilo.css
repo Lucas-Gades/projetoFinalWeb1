@@ -29,8 +29,8 @@ nav{
     background-color: rgb(0, 0, 0)!important;
 }
 #logoBrasileiraoNav{
-    width: 3.5rem!important;
-    margin: 10px;
+    width: 50px!important;
+    margin: 10px!important;
 }
 
 .navbar-toggler{
@@ -233,6 +233,10 @@ form textarea:focus{
     font-size: 1.5rem;
 }
 
+#br2{
+    content: '';
+}
+
 @media screen and (max-width:1366px) {
     #vivo figure{
         padding-top: 7rem!important;
@@ -313,6 +317,9 @@ form textarea:focus{
         padding-top: 1rem!important;
     }
     br{
+        content:normal;
+    }
+    #br2{
         content:normal;
     }
 }
