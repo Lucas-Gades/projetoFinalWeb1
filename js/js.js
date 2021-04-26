@@ -1,4 +1,7 @@
 
+function emailIsValid (email) {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  }
 
 function validar() {
     var validation = '@';
@@ -15,7 +18,7 @@ function validar() {
         alerta.innerHTML = 'Selecione um sexo';
         document.getElementById('s').style.color = 'red';
         return false;
-    } else if (email != "/^[a-z]/"){    
+    } else if (!emailIsValid(email)){    
         alerta.innerHTML = 'Digite seu e-mail corretamente.';
         document.getElementById('e').style.color = 'red';
         return false;
