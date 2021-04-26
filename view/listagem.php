@@ -152,7 +152,7 @@
             </form>
         </section>
 
-        <section class=" row container">
+        <section  class=" row container pb-5 ">
             <?php
                 ListagemView::criarCArd($jogadores);
                 if (isset($_GET["btnFiltro"])) {
