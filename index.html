@@ -50,12 +50,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#contato">Contatos</a>
             </li>
-            <li class="nav-item">
-              <a href="view/cadastro.php" class="nav-link">Cadastro Time</a>
-            </li>
-            <li class="nav-item">
-              <a href="view/cadastrojogador.php" class="nav-link">Cadastro Jogador</a>
-            </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input id="pesquisar" class="form-control mr-sm-2 col-9 " style="margin-right: 1%;" type="search"
@@ -533,30 +527,30 @@
               <input type="text" name="txtemail" id="email" class="form-control" placeholder="Digite seu e-mail aqui">
             </div>
             <div class="form-group col-md-6">
-              <label class="col-md-12">Assuntos:</label>
+              <label id="a" class="col-md-12">Assuntos:</label>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="opcao1" value="option1">
+                <input class="form-check-input" type="checkbox" name="assunto" id="opcao1" value="option1">
                 <label class="form-check-label" for="inlineCheckbox1" >Bug no site</label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="opcao2" value="option2">
+                <input class="form-check-input" type="checkbox" name="assunto" id="opcao2" value="option2">
                 <label class="form-check-label" for="inlineCheckbox2">Melhorias</label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="opcao3" value="option3">
+                <input class="form-check-input" type="checkbox" name="assunto" id="opcao3" value="option3">
                 <label class="form-check-label" for="inlineCheckbox3">Curiosidades</label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="opcao4" value="option4">
+                <input class="form-check-input" type="checkbox" name="assunto" id="opcao4" value="option4">
                 <label class="form-check-label" for="inlineCheckbox3">Ajuda</label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="opçao5" value="option5">
+                <input class="form-check-input" type="checkbox" name="assunto" id="opçao5" value="option5">
                 <label class="form-check-label" for="inlineCheckbox3">Outros</label>
               </div>
             </div>
             <div class="form-group col-md-12">
-              <label>Mensagem: </label>
+              <label id="m">Mensagem: </label>
               <textarea name="txtmensagem" rows="5" cols="30" id="mensagem" placeholder="Digite sua mensagem aqui.."
                 class="form-control"></textarea>
             </div>

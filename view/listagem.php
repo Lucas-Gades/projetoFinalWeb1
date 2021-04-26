@@ -79,16 +79,10 @@
               <a class="nav-link" href="../index.html#times">Times</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="listagem.html">Jogadores</a>
+              <a class="nav-link" href="listagem.php">Jogadores</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contatos</a>
-            </li>
-            <li class="nav-item">
-              <a href="cadastro.php" class="nav-link">Cadastro Time</a>
-            </li>
-            <li class="nav-item">
-              <a href="cadastrojogador.php" class="nav-link">Cadastro Jogador</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
