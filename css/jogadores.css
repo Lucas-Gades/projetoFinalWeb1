@@ -27,13 +27,20 @@ body{
     
     background-image: url(../img/fundo-index.jpg);
     background-size: 100%;
+    background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
+
 nav{
     background-color: rgba(0, 0, 0, 0.404)!important;
 }
+
+
+.nav-item a {
+    margin: auto 60px auto 60px!important;
+ }
 
 #logoBrasileiraoNav{
     width: 3.5rem!important;
@@ -136,18 +143,40 @@ nav{
     transform: scale(1.2);
 }
 
-@media screen and (max-width:765px){
-
+@media screen and (max-width:1366px) {
+  
     body{
-        
-        background-size: 2200px!important;
-        background-image: url(../img/fundo-index.jpg);
-        background-size: 100%;
-        background-position: center;
-        background-attachment: fixed;
-        background-repeat: no-repeat
+        background-size: 150%;
     }
-    #redesocias{
-        text-align: left!important;
+   
+}
+
+
+@media screen and (min-height:1200px) {
+    body{
+        background-size: 275%;
     }
 }
+
+
+@media screen and (max-width:1024px) {
+  
+    body{
+        background-size: 250%;
+    }
+   
+    .nav-item a {
+        margin: auto 20px auto 20px!important;
+     }
+  
+}
+
+
+@media screen and (max-width:480px){
+
+    body{
+        background-size: 400%;
+    }
+   
+}
+
