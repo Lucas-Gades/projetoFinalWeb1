@@ -36,7 +36,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link " href="index.html">Início </a>
+              <a class="nav-link " href="index.html">Teste ai </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#classificacao">Classificação</a>
@@ -502,35 +502,39 @@
           <h2 id="contato" class="">Contatos:</h2>
           <img src="img/telefone-rodape.png" alt="Ícone de Telefone" class="float-left img-fluid py-0 my-0 px-2"
             width="100">    
-              <span>3333-3333</span><br class="break-delete">
+              <br id="br2"><span>3333-3333</span><br>
               <span>9-9999-888</span>
         </div>
         <div class="col-md-8 text-center">
           <h2 id="deixe-sua-mensagem">Deixe sua Mensagem: </h2>
+<<<<<<< HEAD
           <form class="form" id="form" method="post"  onsubmit="">
+=======
+          <form class="form" id="form1" method="post" name="form1" onSubmit="return validar()">
+>>>>>>> 985a2ca1d9cd3b88498b3fa6dfba8174a7a29997
             <div class="form-row">
             <div class="form-group col-md-6">
-              <label>Nome: </label>
+              <label id="n">Nome: </label>
               <input type="text" name="txtnome" id="nome" class="form-control" placeholder="Digite seu nome aqui">
             </div>
             <div class="form-group col-md-6">
-              <label class="col-md-12">Sexo:</label>
+              <label class="col-md-12" id="s">Sexo:</label>
               <div class="form-check form-check-inline">
-                <input class="form-check-input"   type="radio" name="exampleRadios" id="masculino" value="option1">
+                <input class="form-check-input"   type="radio" name="sexo" id="masculino" value="option1">
                 <label class="form-check-label" for="exampleRadios1">Masculino</label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="feminino" value="option2">
+                <input class="form-check-input" type="radio" name="sexo" id="feminino" value="option2">
                 <label class="form-check-label" for="exampleRadios2">Feminino</label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="outros" value="option3">
+                <input class="form-check-input" type="radio" name="sexo" id="outros" value="option3">
                 <label class="form-check-label" for="exampleRadios3">Outros</label>
               </div>            
             </div>
             <div class="form-group col-md-6">
-              <label>E-mail: </label>
-              <input type="text" name="txtemail" id="email" class="form-control" placeholder="Digite seu e-mail aqui">
+              <label id="e">E-mail: </label>
+              <input type="text" name="email" id="email" class="form-control" placeholder="Digite seu e-mail aqui">
             </div>
             <div class="form-group col-md-6">
               <label class="col-md-12">Assuntos:</label>
@@ -561,11 +565,16 @@
                 class="form-control"></textarea>
             </div>
             <div class="form-group col-md-12">
+<<<<<<< HEAD
               <input type="submit" name="envio" value="Enviar" class="btn " >
+=======
+              <input type="submit" name="envio" value="Enviar" class="btn">
+>>>>>>> 985a2ca1d9cd3b88498b3fa6dfba8174a7a29997
               <input type="reset" name="limpa" value="Limpar" class="btn" >
             </div>
           </div>
           </form>
+          <div id="mensagem_erro"></div>
        </div>
         <div id="redesocias" class="col-md-2 col-12 text-right">
           <h2 class="mr-2 pr-2 col-12">Redes Socias:</h2>
