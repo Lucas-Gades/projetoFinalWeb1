@@ -399,13 +399,13 @@ form textarea:focus{
         content:normal;
     }
     body{
-        background-size: 275%;
+        background-size: 400%;
     }
     .body-image-color{
-        background-size: 275%;
+        background-size: 400%;
     }
     .body-image-preto-branco{
-        background-size: 275%;
+        background-size: 400%;
     }
     .acessibilidade button{
         padding: 0 5px 0 5px!important;
