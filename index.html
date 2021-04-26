@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
-  <script type="text/javascript" src="js/js.js"></script>
+  <script src="js/js.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
@@ -28,12 +28,15 @@
 <body style="padding-top: 80px;">
   <main class="container-fluid">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
-        <a class="navbar-brand" href="#"> <img src="img/logoBrasileirao.png" id="logoBrasileiraoNav" class="img-thumbnail img-fluid" alt="Logo do Brasileirão"></a>
-        <button class="navbar-toggler  bg-info " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"> <img src="img/logoBrasileirao.png" id="logoBrasileiraoNav"
+            class="img-thumbnail img-fluid" alt="Logo do Brasileirão"></a>
+        <button class="navbar-toggler  bg-info " type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a class="nav-link " href="index.html">Início </a>
@@ -55,7 +58,7 @@
             <input id="pesquisar" class="form-control mr-sm-2 col-9 " style="margin-right: 1%;" type="search"
               placeholder="Pesquise Aqui.." aria-label="Search">
             <button id="lupa" class="btn  my-2 my-sm-0 col-2" type="submit">
-              <img src="img/lupa.png" style="height: 15px; " sclass="img-fluid text-right "
+              <img src="img/lupa.png" style="height: 15px; " class="img-fluid text-right "
                 alt="Icone da Lupa de Pesquisa">
             </button>
           </form>
@@ -66,6 +69,7 @@
       <h2 style="display: none;">.</h2>
       <div class="row">
         <article class="col-md-2 col-sm-12 p-3 ">
+          <h2 style="display: none;">.</h2>
           <div class="p-2" style="background-color: rgba(226, 166, 166, 0.733);">
             <div id="verde" class="mt-1"></div>
             <p style="font-size: 0.7rem; ">Classificado à segunda fase da Libertadores 2007</p>
@@ -84,17 +88,18 @@
               <img src="img/vivo.png" class="img-fluid" height="15" alt="Logo da empresa da Vivo"><br>
               <img src="img/boneco.png" class="img-fluid" height="50" alt="Logo do mascote da empresa da Vivo"><br>
               <img src="img/logo-45g-fibra-vivo.png" class="img-fluid" height="20" alt="4.5g Fibra">
+            </figure>
           </article>
-          </figure>
         </article>
         <aside class="col-md-8 col-sm-12 ">
           <table class="table table-responsive-lg table-responsive-md table-responsive-sm p-0 " id="classificacao">
-            <thead >
+            <thead>
               <tr id="tabela">
                 <th scope="col">
-                  <div id="logoDoBrasileraoTabela " class="text-center align-items-end p-0" >
-                    <img src="img/logoBrasileirao.png" alt="Logo do Brasileirão" class="img-fluid col-lg-2 w-50 " >
+                  <div id="logoDoBrasileraoTabela" class="text-center align-items-end p-0">
+                    <img src="img/logoBrasileirao.png" alt="Logo do Brasileirão" class="img-fluid col-lg-2 w-50 ">
                     CLASSIFICAÇÃO
+                  </div>
                 </th>
                 <th scope="col">PG</th>
                 <th scope="col">J</th>
@@ -106,315 +111,318 @@
                 <th scope="col">SG</th>
               </tr>
             </thead>
-            <tbody scope="row">
-              <tr style="background-color:rgba(0, 221, 11, 0.671) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">1</p>
-                  <img src="img/sao-paulo.png" alt="Logo do Time do Grêmio" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">São Paulo</p> <br><br>
-                </th>
-                <td class="align-middle">78</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">22</td>
-                <td class="align-middle">12</td>
-                <td class="align-middle">4</td>
-                <td class="align-middle">66</td>
-                <td class="align-middle">32</td>
-                <td class="align-middle">34</td>
-              </tr>
-              <tr style="background-color:rgba(0, 221, 11, 0.671) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">2</p>
-                  <img src="img/internacional.png" alt="Logo do Time do Grêmio" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Internacional</p><br><br>
-                </th>
-                <td class="align-middle">69</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">20</td>
-                <td class="align-middle">9</td>
-                <td class="align-middle">9</td>
-                <td class="align-middle">52</td>
-                <td class="align-middle">36</td>
-                <td class="align-middle">16</td>
-              </tr>
-              <tr style="background-color:rgba(0, 221, 11, 0.671) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">3</p>
-                  <img src="img/gremio.png" alt="Logo do Time do Grêmio" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Grêmio</p><br><br>
-                </th>
-                <td class="align-middle">67</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">20</td>
-                <td class="align-middle">7</td>
-                <td class="align-middle">11</td>
-                <td class="align-middle">64</td>
-                <td class="align-middle">45</td>
-                <td class="align-middle">45</td>
-              </tr>
-              <tr style="background-color:rgba(221, 218, 22, 0.692) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">4</p>
-                  <img src="img/santos.png" alt="Logo do Time do Santos" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Santos</p><br><br>
-                </th>
-                <td class="align-middle">64</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">18</td>
-                <td class="align-middle">10</td>
-                <td class="align-middle">10</td>
-                <td class="align-middle">58</td>
-                <td class="align-middle">36</td>
-                <td class="align-middle">22</td>
-              </tr>
-              <tr style="background-color:rgba(221, 218, 22, 0.692) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">5</p>
-                  <img src="img/parana.png" alt="Logo do Time do Paraná" class="col-md-2 col-sm-4 col-xs-4 p-2">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Paraná</p><br><br>
-                </th>
-                <td class="align-middle">60</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">18</td>
-                <td class="align-middle">6</td>
-                <td class="align-middle">14</td>
-                <td class="align-middle">56</td>
-                <td class="align-middle">49</td>
-                <td class="align-middle">7</td>
-              </tr>
-              <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">6</p>
-                  <img src="img/vasco.png" alt="Logo do Time do Vasco" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Vasco</p><br><br>
-                </th>
-                <td class="align-middle">59</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">15</td>
-                <td class="align-middle">14</td>
-                <td class="align-middle">9</td>
-                <td class="align-middle">57</td>
-                <td class="align-middle">50</td>
-                <td class="align-middle">7</td>
-              </tr>
-              <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">7</p>
-                  <img src="img/figueirense.png" alt="Logo do Time do Figueirense "
-                    class="col-md-2 col-sm-4 col-xs-4 p-2">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Figueirense</p><br><br>
-                </th>
-                <td class="align-middle">57</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">15</td>
-                <td class="align-middle">12</td>
-                <td class="align-middle">11</td>
-                <td class="align-middle">52</td>
-                <td class="align-middle">44</td>
-                <td class="align-middle">8</td>
-              </tr>
-              <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">8</p>
-                  <img src="img/goias.png" alt="Logo do Time do Goiás" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Goiás</p><br><br>
-                </th>
-                <td class="align-middle">55</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">15</td>
-                <td class="align-middle">10</td>
-                <td class="align-middle">13</td>
-                <td class="align-middle">63</td>
-                <td class="align-middle">49</td>
-                <td class="align-middle">14</td>
-              </tr>
-              <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">9</p>
-                  <img src="img/corinthians.png" alt="Logo do Time do Corinthians"
-                    class="col-md-2 col-sm-4 col-xs-4 p-2">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Corinthians</p><br><br>
-                </th>
-                <td class="align-middle">53</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">15</td>
-                <td class="align-middle">8</td>
-                <td class="align-middle">15</td>
-                <td class="align-middle">41</td>
-                <td class="align-middle">46</td>
-                <td class="align-middle">-5</td>
-              </tr>
-              <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">10</p>
-                  <img src="img/cruzeiro.png" alt="Logo do Time do Cruzeiro" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Cruzeiro</p><br><br>
-                </th>
-                <td class="align-middle">53</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">14</td>
-                <td class="align-middle">11</td>
-                <td class="align-middle">13</td>
-                <td class="align-middle">52</td>
-                <td class="align-middle">45</td>
-                <td class="align-middle">7</td>
-              </tr>
-              <tr style="background-color:rgba(0, 221, 11, 0.671) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">11</p>
-                  <img src="img/flamengo.png" alt="Logo do Time do Flamengo" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Flamengo</p><br><br>
-                </th>
-                <td class="align-middle">52</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">15</td>
-                <td class="align-middle">7</td>
-                <td class="align-middle">16</td>
-                <td class="align-middle">44</td>
-                <td class="align-middle">48</td>
-                <td class="align-middle">-4</td>
-              </tr>
-              <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">12</p>
-                  <img src="img/botafogo.png" alt="Logo do Time do Botafogo" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Botafogo</p><br><br>
-                </th>
-                <td class="align-middle">51</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">13</td>
-                <td class="align-middle">12</td>
-                <td class="align-middle">13</td>
-                <td class="align-middle">52</td>
-                <td class="align-middle">50</td>
-                <td class="align-middle">2</td>
-              </tr>
-              <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">13</p>
-                  <img src="img/atlhetico-pr.png" alt="Logo do Time do Atlêtico-PR"
-                    class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Atlêtico-PR</p><br><br>
-                </th>
-                <td class="align-middle">48</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">13</td>
-                <td class="align-middle">9</td>
-                <td class="align-middle">16</td>
-                <td class="align-middle">61</td>
-                <td class="align-middle">62</td>
-                <td class="align-middle">-1</td>
-              </tr>
-              <tr style="background-color:rgba(143, 142, 142, 0.74) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">14</p>
-                  <img src="img/juventude.png" alt="Logo do Time do Juventude" class="col-md-2 col-sm-4 col-xs-4 p-2">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Juventude</p><br><br>
-                </th>
-                <td class="align-middle">47</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">13</td>
-                <td class="align-middle">8</td>
-                <td class="align-middle">17</td>
-                <td class="align-middle">44</td>
-                <td class="align-middle">54</td>
-                <td class="align-middle">-10</td>
-              </tr>
-              <tr style="background-color:rgba(143, 142, 142, 0.74) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">15</p>
-                  <img src="img/fluminense.png" alt="Logo do Time do Fluminense"
-                    class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Fluminense</p><br><br>
-                </th>
-                <td class="align-middle">45</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">11</td>
-                <td class="align-middle">12</td>
-                <td class="align-middle">15</td>
-                <td class="align-middle">48</td>
-                <td class="align-middle">58</td>
-                <td class="align-middle">-10</td>
-              </tr>
-              <tr style="background-color:rgba(143, 142, 142, 0.74) ;">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">16</p>
-                  <img src="img/palmeiras.png" alt="Logo do Time do Palmeiras" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Palmeiras</p><br><br>
-                </th>
-                <td class="align-middle">44</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">12</td>
-                <td class="align-middle">8</td>
-                <td class="align-middle">18</td>
-                <td class="align-middle">58</td>
-                <td class="align-middle">70</td>
-                <td class="align-middle">-12</td>
-              </tr>
-              <tr style="background: rgba(220, 20, 60, 0.527);">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">17</p>
-                  <img src="img/ponte-preta.png" alt="Logo do Time do Ponte Preta"
-                    class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Ponte Preta</p><br><br>
-                </th>
-                <td class="align-middle">39</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">10</td>
-                <td class="align-middle">9</td>
-                <td class="align-middle">19</td>
-                <td class="align-middle">45</td>
-                <td class="align-middle">65</td>
-                <td class="align-middle">-20</td>
-              </tr>
-              <tr style="background: rgba(220, 20, 60, 0.527);">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">18</p>
-                  <img src="img/fortaleza.png" alt="Logo do Time do Fortaleza" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Fortaleza</p><br><br>
-                </th>
-                <td class="align-middle">38</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">8</td>
-                <td class="align-middle">14</td>
-                <td class="align-middle">16</td>
-                <td class="align-middle">39</td>
-                <td class="align-middle">62</td>
-                <td class="align-middle">-23</td>
-              </tr>
-              <tr style="background: rgba(220, 20, 60, 0.527);">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">19</p>
-                  <img src="img/sao-caetano.png" alt="Logo do Time do São Caetano"
-                    class="col-md-2 col-sm-4 col-xs-4 p-2">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">São Caetano</p><br><br>
-                </th>
-                <td class="align-middle">36</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">9</td>
-                <td class="align-middle">9</td>
-                <td class="align-middle">20</td>
-                <td class="align-middle">37</td>
-                <td class="align-middle">53</td>
-                <td class="align-middle">-16</td>
-              </tr>
-              <tr style="background: rgba(220, 20, 60, 0.527);">
-                <th class="row align-items-center m-0 p-0">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">20</p>
-                  <img src="img/santa-cruz.png" alt="Logo do Time do Santa Cruz"
-                    class="col-md-2 col-sm-4 col-xs-4 p-2 ">
-                  <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Santa Cruz</p><br><br>
-                </th>
-                <td class="align-middle ">28</td>
-                <td class="align-middle">38</td>
-                <td class="align-middle">7</td>
-                <td class="align-middle">7</td>
-                <td class="align-middle">24</td>
-                <td class="align-middle">41</td>
-                <td class="align-middle">76</td>
-                <td class="align-middle">-35</td>
-              </tr>
-            </tbody>
+              <tbody class="table">
+                <tr  style="background-color:rgba(0, 221, 11, 0.671) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">1</p>
+                    <img src="img/sao-paulo.png" alt="Logo do Time do Grêmio" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">São Paulo</p> <br><br>
+                  </th>
+                  <td class="align-middle">78</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">22</td>
+                  <td class="align-middle">12</td>
+                  <td class="align-middle">4</td>
+                  <td class="align-middle">66</td>
+                  <td class="align-middle">32</td>
+                  <td class="align-middle">34</td>
+                </tr>
+                <tr style="background-color:rgba(0, 221, 11, 0.671) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">2</p>
+                    <img src="img/internacional.png" alt="Logo do Time do Grêmio"
+                      class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Internacional</p><br><br>
+                  </th>
+                  <td class="align-middle">69</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">20</td>
+                  <td class="align-middle">9</td>
+                  <td class="align-middle">9</td>
+                  <td class="align-middle">52</td>
+                  <td class="align-middle">36</td>
+                  <td class="align-middle">16</td>
+                </tr>
+                <tr style="background-color:rgba(0, 221, 11, 0.671) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">3</p>
+                    <img src="img/gremio.png" alt="Logo do Time do Grêmio" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Grêmio</p><br><br>
+                  </th>
+                  <td class="align-middle">67</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">20</td>
+                  <td class="align-middle">7</td>
+                  <td class="align-middle">11</td>
+                  <td class="align-middle">64</td>
+                  <td class="align-middle">45</td>
+                  <td class="align-middle">45</td>
+                </tr>
+                <tr style="background-color:rgba(221, 218, 22, 0.692) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">4</p>
+                    <img src="img/santos.png" alt="Logo do Time do Santos" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Santos</p><br><br>
+                  </th>
+                  <td class="align-middle">64</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">18</td>
+                  <td class="align-middle">10</td>
+                  <td class="align-middle">10</td>
+                  <td class="align-middle">58</td>
+                  <td class="align-middle">36</td>
+                  <td class="align-middle">22</td>
+                </tr>
+                <tr style="background-color:rgba(221, 218, 22, 0.692) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">5</p>
+                    <img src="img/parana.png" alt="Logo do Time do Paraná" class="col-md-2 col-sm-4 col-xs-4 p-2">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Paraná</p><br><br>
+                  </th>
+                  <td class="align-middle">60</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">18</td>
+                  <td class="align-middle">6</td>
+                  <td class="align-middle">14</td>
+                  <td class="align-middle">56</td>
+                  <td class="align-middle">49</td>
+                  <td class="align-middle">7</td>
+                </tr>
+                <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">6</p>
+                    <img src="img/vasco.png" alt="Logo do Time do Vasco" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Vasco</p><br><br>
+                  </th>
+                  <td class="align-middle">59</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">15</td>
+                  <td class="align-middle">14</td>
+                  <td class="align-middle">9</td>
+                  <td class="align-middle">57</td>
+                  <td class="align-middle">50</td>
+                  <td class="align-middle">7</td>
+                </tr>
+                <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">7</p>
+                    <img src="img/figueirense.png" alt="Logo do Time do Figueirense "
+                      class="col-md-2 col-sm-4 col-xs-4 p-2">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Figueirense</p><br><br>
+                  </th>
+                  <td class="align-middle">57</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">15</td>
+                  <td class="align-middle">12</td>
+                  <td class="align-middle">11</td>
+                  <td class="align-middle">52</td>
+                  <td class="align-middle">44</td>
+                  <td class="align-middle">8</td>
+                </tr>
+                <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">8</p>
+                    <img src="img/goias.png" alt="Logo do Time do Goiás" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Goiás</p><br><br>
+                  </th>
+                  <td class="align-middle">55</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">15</td>
+                  <td class="align-middle">10</td>
+                  <td class="align-middle">13</td>
+                  <td class="align-middle">63</td>
+                  <td class="align-middle">49</td>
+                  <td class="align-middle">14</td>
+                </tr>
+                <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">9</p>
+                    <img src="img/corinthians.png" alt="Logo do Time do Corinthians"
+                      class="col-md-2 col-sm-4 col-xs-4 p-2">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Corinthians</p><br><br>
+                  </th>
+                  <td class="align-middle">53</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">15</td>
+                  <td class="align-middle">8</td>
+                  <td class="align-middle">15</td>
+                  <td class="align-middle">41</td>
+                  <td class="align-middle">46</td>
+                  <td class="align-middle">-5</td>
+                </tr>
+                <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">10</p>
+                    <img src="img/cruzeiro.png" alt="Logo do Time do Cruzeiro" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Cruzeiro</p><br><br>
+                  </th>
+                  <td class="align-middle">53</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">14</td>
+                  <td class="align-middle">11</td>
+                  <td class="align-middle">13</td>
+                  <td class="align-middle">52</td>
+                  <td class="align-middle">45</td>
+                  <td class="align-middle">7</td>
+                </tr>
+                <tr style="background-color:rgba(0, 221, 11, 0.671) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">11</p>
+                    <img src="img/flamengo.png" alt="Logo do Time do Flamengo" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Flamengo</p><br><br>
+                  </th>
+                  <td class="align-middle">52</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">15</td>
+                  <td class="align-middle">7</td>
+                  <td class="align-middle">16</td>
+                  <td class="align-middle">44</td>
+                  <td class="align-middle">48</td>
+                  <td class="align-middle">-4</td>
+                </tr>
+                <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">12</p>
+                    <img src="img/botafogo.png" alt="Logo do Time do Botafogo" class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Botafogo</p><br><br>
+                  </th>
+                  <td class="align-middle">51</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">13</td>
+                  <td class="align-middle">12</td>
+                  <td class="align-middle">13</td>
+                  <td class="align-middle">52</td>
+                  <td class="align-middle">50</td>
+                  <td class="align-middle">2</td>
+                </tr>
+                <tr style="background-color:rgba(219, 127, 6, 0.712) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">13</p>
+                    <img src="img/atlhetico-pr.png" alt="Logo do Time do Atlêtico-PR"
+                      class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Atlêtico-PR</p><br><br>
+                  </th>
+                  <td class="align-middle">48</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">13</td>
+                  <td class="align-middle">9</td>
+                  <td class="align-middle">16</td>
+                  <td class="align-middle">61</td>
+                  <td class="align-middle">62</td>
+                  <td class="align-middle">-1</td>
+                </tr>
+                <tr style="background-color:rgba(143, 142, 142, 0.74) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">14</p>
+                    <img src="img/juventude.png" alt="Logo do Time do Juventude" class="col-md-2 col-sm-4 col-xs-4 p-2">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Juventude</p><br><br>
+                  </th>
+                  <td class="align-middle">47</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">13</td>
+                  <td class="align-middle">8</td>
+                  <td class="align-middle">17</td>
+                  <td class="align-middle">44</td>
+                  <td class="align-middle">54</td>
+                  <td class="align-middle">-10</td>
+                </tr>
+                <tr style="background-color:rgba(143, 142, 142, 0.74) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">15</p>
+                    <img src="img/fluminense.png" alt="Logo do Time do Fluminense"
+                      class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Fluminense</p><br><br>
+                  </th>
+                  <td class="align-middle">45</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">11</td>
+                  <td class="align-middle">12</td>
+                  <td class="align-middle">15</td>
+                  <td class="align-middle">48</td>
+                  <td class="align-middle">58</td>
+                  <td class="align-middle">-10</td>
+                </tr>
+                <tr style="background-color:rgba(143, 142, 142, 0.74) ;">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">16</p>
+                    <img src="img/palmeiras.png" alt="Logo do Time do Palmeiras"
+                      class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Palmeiras</p><br><br>
+                  </th>
+                  <td class="align-middle">44</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">12</td>
+                  <td class="align-middle">8</td>
+                  <td class="align-middle">18</td>
+                  <td class="align-middle">58</td>
+                  <td class="align-middle">70</td>
+                  <td class="align-middle">-12</td>
+                </tr>
+                <tr style="background: rgba(220, 20, 60, 0.527);">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">17</p>
+                    <img src="img/ponte-preta.png" alt="Logo do Time do Ponte Preta"
+                      class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Ponte Preta</p><br><br>
+                  </th>
+                  <td class="align-middle">39</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">10</td>
+                  <td class="align-middle">9</td>
+                  <td class="align-middle">19</td>
+                  <td class="align-middle">45</td>
+                  <td class="align-middle">65</td>
+                  <td class="align-middle">-20</td>
+                </tr>
+                <tr style="background: rgba(220, 20, 60, 0.527);">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">18</p>
+                    <img src="img/fortaleza.png" alt="Logo do Time do Fortaleza"
+                      class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Fortaleza</p><br><br>
+                  </th>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">8</td>
+                  <td class="align-middle">14</td>
+                  <td class="align-middle">16</td>
+                  <td class="align-middle">39</td>
+                  <td class="align-middle">62</td>
+                  <td class="align-middle">-23</td>
+                </tr>
+                <tr style="background: rgba(220, 20, 60, 0.527);">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">19</p>
+                    <img src="img/sao-caetano.png" alt="Logo do Time do São Caetano"
+                      class="col-md-2 col-sm-4 col-xs-4 p-2">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">São Caetano</p><br><br>
+                  </th>
+                  <td class="align-middle">36</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">9</td>
+                  <td class="align-middle">9</td>
+                  <td class="align-middle">20</td>
+                  <td class="align-middle">37</td>
+                  <td class="align-middle">53</td>
+                  <td class="align-middle">-16</td>
+                </tr>
+                <tr style="background: rgba(220, 20, 60, 0.527);">
+                  <th class="row align-items-center m-0 p-0">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">20</p>
+                    <img src="img/santa-cruz.png" alt="Logo do Time do Santa Cruz"
+                      class="col-md-2 col-sm-4 col-xs-4 p-2 ">
+                    <p class="col-md-4 col-sm-4 col-xs-4 text-center p-0 m-0">Santa Cruz</p><br><br>
+                  </th>
+                  <td class="align-middle ">28</td>
+                  <td class="align-middle">38</td>
+                  <td class="align-middle">7</td>
+                  <td class="align-middle">7</td>
+                  <td class="align-middle">24</td>
+                  <td class="align-middle">41</td>
+                  <td class="align-middle">76</td>
+                  <td class="align-middle">-35</td>
+                </tr>
+              </tbody>
           </table>
         </aside>
         <article id="premiere" class="col-md-2 col-sm-12 p-4">
@@ -495,93 +503,94 @@
         <div id="contato-div" class="col-md-2 col-12">
           <h2 id="contato" class="">Contatos:</h2>
           <img src="img/telefone-rodape.png" alt="Ícone de Telefone" class="float-left img-fluid py-0 my-0 px-2"
-            width="100">    
-              <span>3333-3333</span><br class="break-delete">
-              <span>9-9999-888</span>
+            width="100">
+          <span>3333-3333</span><br class="break-delete">
+          <span>9-9999-888</span>
         </div>
         <div class="col-md-8 text-center">
           <h2 id="deixe-sua-mensagem">Deixe sua Mensagem: </h2>
-          <form class="form" name="form1" id="form1" method="post" onSubmit= "return validar()">
+          <form class="form" name="form1" id="form1" method="post" onSubmit="return validar()">
             <div class="form-row">
-            <div class="form-group col-md-6">
-              <label id="n">Nome: </label>
-              <input type="text" name="txtnome" id="nome" class="form-control" placeholder="Digite seu nome aqui">
+              <div class="form-group col-md-6">
+                <label id="n">Nome: </label>
+                <input type="text" name="txtnome" id="nome" class="form-control" placeholder="Digite seu nome aqui">
+              </div>
+              <div class="form-group col-md-6">
+                <label id="s" class="col-md-12">Sexo:</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sexo" id="masculino" value="option1">
+                  <label class="form-check-label" for="masculino">Masculino</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sexo" id="feminino" value="option2">
+                  <label class="form-check-label" for="feminino">Feminino</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sexo" id="outros" value="option3">
+                  <label class="form-check-label" for="outros">Outros</label>
+                </div>
+              </div>
+              <div class="form-group col-md-6">
+                <label id="e">E-mail: </label>
+                <input type="text" name="txtemail" id="email" class="form-control" placeholder="Digite seu e-mail aqui">
+              </div>
+              <div class="form-group col-md-6">
+                <label id="a" class="col-md-12">Assuntos:</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="assunto" id="assunto1" value="option1">
+                  <label class="form-check-label" for="assunto1">Bug no site</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="assunto" id="assunto2" value="option2">
+                  <label class="form-check-label" for="assunto2">Melhorias</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="assunto" id="assunto3" value="option3">
+                  <label class="form-check-label" for="assunto3">Curiosidades</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="assunto" id="assunto4" value="option4">
+                  <label class="form-check-label" for="assunto4">Ajuda</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="assunto" id="assunto5" value="option5">
+                  <label class="form-check-label" for="assunto5">Outros</label>
+                </div>
+              </div>
+              <div class="form-group col-md-12">
+                <label id="m">Mensagem: </label>
+                <textarea name="txtmensagem" rows="5" cols="30" id="mensagem" placeholder="Digite sua mensagem aqui.."
+                  class="form-control"></textarea>
+              </div>
+              <div class="form-group col-md-12">
+                <input type="submit" name="envio" value="Enviar" class="btn">
+                <input type="reset" name="limpa" value="Limpar" class="btn">
+              </div>
             </div>
-            <div class="form-group col-md-6">
-              <label id="s" class="col-md-12">Sexo:</label>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="sexo" id="masculino" value="option1">
-                <label class="form-check-label" for="exampleRadios1">Masculino</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="sexo"  id="feminino" value="option2">
-                <label class="form-check-label" for="exampleRadios2">Feminino</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="sexo" id="outros" value="option3">
-                <label class="form-check-label" for="exampleRadios3">Outros</label>
-              </div>            
-            </div>
-            <div class="form-group col-md-6">
-              <label id="e">E-mail: </label>
-              <input type="text" name="txtemail" id="email" class="form-control" placeholder="Digite seu e-mail aqui">
-            </div>
-            <div class="form-group col-md-6">
-              <label id="a" class="col-md-12">Assuntos:</label>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" name="assunto" id="opcao1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1" >Bug no site</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" name="assunto" id="opcao2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Melhorias</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" name="assunto" id="opcao3" value="option3">
-                <label class="form-check-label" for="inlineCheckbox3">Curiosidades</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" name="assunto" id="opcao4" value="option4">
-                <label class="form-check-label" for="inlineCheckbox3">Ajuda</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" name="assunto" id="opçao5" value="option5">
-                <label class="form-check-label" for="inlineCheckbox3">Outros</label>
-              </div>
-            </div>
-            <div class="form-group col-md-12">
-              <label id="m">Mensagem: </label>
-              <textarea name="txtmensagem" rows="5" cols="30" id="mensagem" placeholder="Digite sua mensagem aqui.."
-                class="form-control"></textarea>
-            </div>
-            <div class="form-group col-md-12">
-              <input type="submit" name="envio" value="Enviar" class="btn">
-              <input type="reset" name="limpa" value="Limpar" class="btn" >
-            </div>
-          </div>
           </form>
           <div id="mensagem_erro" style="color: red;"></div>
-       </div>
+        </div>
         <div id="redesocias" class="col-md-2 col-12 text-right">
           <h2 class="mr-2 pr-2 col-12">Redes Socias:</h2>
           <a href="#"><img src="img/twitter-icon.png" alt="Ícone do Twitter" class="img-fluid col-md-4 px-2 imagem"
               width="75"></a>
-          <a href="#"><img src="img/facebook-icon.webp" alt="Ícone do Facebook" class="img-fluid col-md-4 p-0 imagem" width="75"></a>
+          <a href="#"><img src="img/facebook-icon.webp" alt="Ícone do Facebook" class="img-fluid col-md-4 p-0 imagem"
+              width="75"></a>
           <a href="#"><img src="img/whatsapp-icon.png" alt="Ícone do Whatsapp" class="img-fluid px-2 col-md-4 imagem"
               width="75"></a>
-          <a href="#"><img src="img/instragram-icon.png" alt="Ícone do Instagram" id="instagram-icon" class="img-fluid px-3 col-md-4 pt-2 imagem"
-              width="75"></a>
+          <a href="#"><img src="img/instragram-icon.png" alt="Ícone do Instagram" id="instagram-icon"
+              class="img-fluid px-3 col-md-4 pt-2 imagem" width="75"></a>
         </div>
       </div>
-      <div class="row" id="contato">
+      <div class="row">
         <div class="col-12">
           <small class="copyright">
             Copyright 2021 - Todos os Direitos Reservados
           </small>
           <small class="desenvolvedor">
             Desenvolvedores : <ins><a href="https://www.facebook.com/lucas.gades" target="_blank">Lucas Gades</a>,<a
-                href="https://www.facebook.com/ryan.eugenio.18" target="_blank">Ryan Eugênio</a>, <a href="" target="_blank">Juliano Godinho</a> e <a href=""
-                target="_blank">Felipe Zamora</a></ins>
+                href="https://www.facebook.com/ryan.eugenio.18" target="_blank">Ryan Eugênio</a>, <a href=""
+                target="_blank">Juliano Godinho</a> e <a href="" target="_blank">Felipe Zamora</a></ins>
           </small>
         </div>
       </div>
