@@ -1,4 +1,4 @@
-/*alert('oi');*/
+alert('oi');
 
 function validar() {
     var validation = '@'
