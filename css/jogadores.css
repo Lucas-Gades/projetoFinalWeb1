@@ -82,6 +82,11 @@ nav{
     cursor: text!important;
 }
 
+#logoBrasileiraoNav{
+    width: 50px!important;
+    margin: 10px!important;
+}
+
 .row{
     margin: 0 auto!important;
 }
