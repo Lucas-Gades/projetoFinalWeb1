@@ -7,37 +7,13 @@
     scroll-behavior: smooth;
 }
 
-body {
-    background-image: url(../img/fundo-index.jpg);
-    background-size: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.body-image-color{
-    background-image: url(../img/fundo-index.jpg);
-    background-size: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+body{
 
-.body-image-preto-branco{
-    background-image: url(../img/fundo-index-preto-branco.jpg);
-    background-size: 100%;
+    background-image: url(../img/fundo-index.jpg);
+    background-size: 2220px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.acessibilidade button{
-    transition-property: transform;
-    transition-duration: 800ms;
-    border-color: black;
-}
-.acessibilidade button:hover{
-    transform: scale(1.1);
-    border: none;
 }
 
 .imagem{
@@ -53,8 +29,8 @@ nav{
     background-color: rgb(0, 0, 0)!important;
 }
 #logoBrasileiraoNav{
-    width: 50px!important;
-    margin: 10px!important;
+    width: 3.5rem!important;
+    margin: 10px;
 }
 
 .navbar-toggler{
@@ -71,7 +47,7 @@ nav{
 }
 
 .nav-item a {
-   margin: auto 60px auto 60px!important;
+   margin-left: 5rem;
 }
 
 .nav-link:hover{
@@ -97,13 +73,6 @@ nav{
 
 #pesquisar:focus{
     cursor: text!important;
-}
-
-.preto-branco {
-    -webkit-filter: grayscale(100%)!important;
-    -moz-filter: grayscale(100%)!important;
-    -ms-filter: grayscale(100%)!important;
-    filter: grayscale(100%)!important;
 }
 
 #logoDoBrasileraoTabela{
@@ -253,6 +222,37 @@ form textarea:focus{
     box-shadow: 1px 1px 5px #eeff00!important;
 }
 
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: inherit;
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after  {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #e5ff00;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+
+}
+
+
+
 #deixe-sua-mensagem{
     font-weight: bold;
     padding: 1rem;
@@ -264,10 +264,6 @@ form textarea:focus{
     font-size: 1.5rem;
 }
 
-#br2{
-    content: '';
-}
-
 @media screen and (max-width:1366px) {
     #vivo figure{
         padding-top: 7rem!important;
@@ -277,18 +273,6 @@ form textarea:focus{
     }
     #contato-div img{
         width: 80px!important;
-    }
-    body{
-        background-size: 150%;
-    }
-    .body-image-color{
-        background-size: 150%;
-    }
-    .body-image-preto-branco{
-        background-size: 150%;
-    }
-    .acessibilidade h2{
-        font-size: 1.5rem!important;
     }
 }
 
@@ -313,28 +297,6 @@ form textarea:focus{
     #contato-div img{
         float: none!important;
         width: 100px!important;
-    }
-    body{
-        background-size: 250%;
-    }
-    .body-image-color{
-        background-size: 250%;
-    }
-    .body-image-preto-branco{
-        background-size: 250%;
-    }
-    .nav-item a {
-        margin: auto 20px auto 20px!important;
-     }
-    .acessibilidade{
-        font-size: 0.7rem!important;
-    }
-    .acessibilidade h2{
-        font-size: 1rem!important;
-    }
-    #logoDoBrasileraoTabelaImg{
-        padding-left: 5px!important;
-        padding-right: 5px!important;
     }
 }
 
@@ -366,17 +328,6 @@ form textarea:focus{
     #vivo figure{
         padding-top: 0rem!important;
     }
-    .acessibilidade{
-        width: 50%!important;
-        display: block!important;
-        margin: 50px auto 0 auto!important;
-        letter-spacing: 0.2rem;
-        border: 2.5px solid yellow;
-    }
-    .acessibilidade button{
-        padding: 0 10px 0 10px!important;
-        margin: 0 5px 0 5px!important;
-    }
 }
 @media screen and (max-width:480px){
 
@@ -395,46 +346,15 @@ form textarea:focus{
     br{
         content:normal;
     }
-    #br2{
-        content:normal;
-    }
-    body{
-        background-size: 275%;
-    }
-    .body-image-color{
-        background-size: 275%;
-    }
-    .body-image-preto-branco{
-        background-size: 275%;
-    }
-    .acessibilidade button{
-        padding: 0 5px 0 5px!important;
-        margin: 0 2px 0 2px!important;
-    }
 }
 
 @media screen and (max-width:375px) {
     #vivo figure{
         padding-top: 2.5rem!important;
     }
-    body{
-        background-size: 2200px;
-    }
-    .body-image-color{
-        background-size: 2200px;
-    }
-    .body-image-preto-branco{
-        background-size: 2200px;
-    }
 }
 @media screen and (max-width:300px) {
     #vivo figure{
         padding-top: 5rem!important;
-    }
-    .acessibilidade{
-        font-size: 0.47rem!important;
-    }
-    .acessibilidade h2{
-        font-size: 0.8rem!important;
     }
 }
