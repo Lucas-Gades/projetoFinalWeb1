@@ -1,7 +1,7 @@
-alert('oi');
+
 
 function validar() {
-    var validation = '@'
+    var validation = '@';
     var nome = document.getElementById('nome').value;
     var sexo = document.form1.sexo;
     var email = document.getElementById('email').value;
@@ -15,7 +15,7 @@ function validar() {
         alerta.innerHTML = 'Selecione um sexo';
         document.getElementById('s').style.color = 'red';
         return false;
-    } else if (email != validation ){    
+    } else if (email != "/^[a-z]/"){    
         alerta.innerHTML = 'Digite seu e-mail corretamente.';
         document.getElementById('e').style.color = 'red';
         return false;
