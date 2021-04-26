@@ -37,3 +37,27 @@ function validar() {
         return true;
     }
 }
+var isBlackAndWhite = false;
+function pretoEBranco(){
+	if (isBlackAndWhite) {
+		document.getElementById('body').classList.remove('preto-branco');
+        document.getElementById('body').classList.add('body-image-color');
+        document.getElementById('body').classList.remove('body-image-preto-branco');
+		isBlackAndWhite = false;
+	} else {
+		document.getElementById('body').classList.add('preto-branco');
+        document.getElementById('body').classList.add('body-image-preto-branco');
+        document.getElementById('body').classList.remove('body-image-color');
+		isBlackAndWhite = true;
+	}
+}
+function aumentar() {
+	document.body.style.zoom = '150%';
+}
+function tamanhoNormal() {
+	document.body.style.zoom = '100%';
+}
+
+function diminuir() {
+	document.body.style.zoom = '75%';
+}
