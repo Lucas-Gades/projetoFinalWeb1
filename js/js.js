@@ -53,9 +53,11 @@ function pretoEBranco(){
 }
 function aumentar() {
 	document.body.style.zoom = '150%';
+    document.getElementById('acessibilidade').style.fontSize = '1.5rem';
 }
 function tamanhoNormal() {
 	document.body.style.zoom = '100%';
+    document.getElementById('acessibilidade').style.fontSize = '2rem';
 }
 
 function diminuir() {
